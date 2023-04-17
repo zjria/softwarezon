@@ -1,0 +1,27 @@
+body {
+    font-family: 'Rubik';
+}
+
+.navbar-section {
+    background: radial-gradient(81.16% 143.98% at 50% -5.92%, rgba(243, 145, 34, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+.btn-whatsapp {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #52FFA1;
+    background: none;
+    border: 1px solid #52FFA1;
+}
+
+.navbar-section button .whatsapp-img {
+    padding: 4px;
+    border-radius: 100%;
+    margin-right: 10px;
+    font-family: 'Space Grotesk';
+    background-color: #52ffa124;
+    font-weight: 500;
+    font-size: 18px;
+}
