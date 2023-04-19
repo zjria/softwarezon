@@ -1,15 +1,19 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+
 body {
     font-family: 'Rubik';
 }
 
 .navbar-section {
-    background: radial-gradient(81.16% 143.98% at 50% -5.92%, rgba(243, 145, 34, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    background: radial-gradient(81.16% 130.98% at 40% -5.92%, rgba(243, 145, 34, 0.8) -5%, #000 100%);
 }
 
 .btn-whatsapp {
     font-family: 'Space Grotesk';
-    font-style: normal;
-    font-weight: 500;
     font-size: 18px;
     color: #52FFA1;
     background: none;
@@ -17,11 +21,141 @@ body {
 }
 
 .navbar-section button .whatsapp-img {
-    padding: 4px;
-    border-radius: 100%;
-    margin-right: 10px;
     font-family: 'Space Grotesk';
     background-color: #52ffa124;
-    font-weight: 500;
     font-size: 18px;
+}
+
+.banner-text h1 {
+    font-size: 40px;
+    line-height: 70px;
+}
+
+.banner-text button, .solution-studio button {
+    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
+}
+
+.navbar-light .navbar-toggler {
+    color: #f9fafb;
+    border-color: #f8f9fa;
+}
+
+.solution-studio {
+    background: #F5F5F5;
+}
+
+.solution-studio h1 {
+    color: #1A1717;
+}
+
+.solution-studio p {
+    color: #626262;
+}
+
+
+
+
+
+
+/* ......................
+    Responsive web degain section
+...................... */
+
+@media screen and (max-width: 576px) {
+    div#navbarSupportedContent {
+        margin: auto;
+        text-align: center;
+    }
+
+    button.btn-whatsapp.rounded-pill.py-1.px-3.d-flex.align-items-center.fw-bold {
+        margin: auto;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-text button {
+        margin: auto;
+    }
+
+    .banner-img img {
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .banner-text h1 {
+        font-size: 29px;
+        line-height: 50px;
+    }
+
+    .solution-studio h1 {
+        padding-top: 20px;
+    }
+
+    .solution-studio .text-content {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .banner-text button, .solution-studio button {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    div#navbarSupportedContent {
+        margin: auto;
+        text-align: center;
+    }
+
+    button.btn-whatsapp.rounded-pill.py-1.px-3.d-flex.align-items-center.fw-bold {
+        margin: auto;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-text button {
+        margin: auto;
+    }
+
+    .banner-img img {
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .banner-text h1 {
+        font-size: 29px;
+        line-height: 50px;
+    }
+
+    .solution-studio h1 {
+        padding-top: 20px;
+    }
+
+    .solution-studio .text-content {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .banner-text button, .solution-studio button {
+        margin: auto;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .banner-text h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .banner-section .banner-img .w-75 {
+        width: 100% !important;
+    }
+
+    .solution-studio h1 {
+        font-size: 25px;
+    }
 }
