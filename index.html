@@ -13,6 +13,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- input field -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
     <!-- custom css link -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -95,7 +97,7 @@
 
     <!-- Main Section -->
     <main>
-        <article class="solution-studio pt-5">
+        <article class="solution-studio py-5">
             <!-- Software Solution studio -->
             <div class="container">
                 <div class="row justify-content-center align-items-center pt-5">
@@ -118,16 +120,464 @@
                 </div>
             </div>
         </article>
+        <!-- How We Work -->
+        <article class="how-work pt-5">
+            <div class="container">
+                <h1 class="text-center pb-3">How We Work</h1>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 border-0 text-center card-style">
+                            <img class="img-fluid w-50 mx-auto" src="./images/main/Work/research.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bolder py-3">Research</h5>
+                                <p class="card-text">Extensive and in-depth research ensures that you get only the best
+                                    output everytime.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 text-center card-style">
+                            <img class="img-fluid w-50 mx-auto" src="./images/main/Work/design-tools.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bolder py-3">Design</h5>
+                                <p class="card-text">No matter how complex your website is, the design must be simple
+                                    and intuitive.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 text-center card-style">
+                            <img class="img-fluid w-50 mx-auto" src="./images/main/Work/software-development.png"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title fw-bolder py-3">Development</h5>
+                                <p class="card-text">At Softwarezon, we develop clean, clutter-free, and scalable
+                                    products for our clients.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- Explore What We Offer -->
+        <article class="explore-offer py-5">
+            <div class="container">
+                <div class="offer-header text-center py-5">
+                    <h1>Explore What We Offer</h1>
+                    <p>Every week, our staff personally hand-pick some of the best new <br> website themes from our
+                        collection.</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card h-100 card-style p-4">
+                            <div class="course-number d-flex justify-content-between px-3 align-items-center">
+                                <img class="img-fluid" src="./images/main/explore-offer/ui-ux-design.png"
+                                    class="card-img-top" alt="...">
+                                <span>01/04</span>
+                            </div>
+                            <div class="card-body card-body-style">
+                                <h5 class="card-title fw-bold py-1">Ui/Ux Design</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet elit, sed do tempor incididunt ut dolore
+                                    magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="card-footer border-0 bg-white">
+                                <button class="border-0 bg-white learn-more fw-bold ">Learn More <i
+                                        class="fa-solid fa-angle-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 card-style p-4">
+                            <div class="course-number d-flex justify-content-between px-3 align-items-center">
+                                <img class="img-fluid" src="./images/main/explore-offer/web-design-development.png"
+                                    class="card-img-top" alt="...">
+                                <span>02/04</span>
+                            </div>
+                            <div class="card-body card-body-style">
+                                <h5 class="card-title fw-bold py-1">Web Design & Development</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet elit, sed do tempor incididunt ut dolore
+                                    magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="card-footer border-0 bg-white">
+                                <button class="border-0 bg-white learn-more fw-bold ">Learn More <i
+                                        class="fa-solid fa-angle-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 card-style p-4">
+                            <div class="course-number d-flex justify-content-between px-3 align-items-center">
+                                <img class="img-fluid" src="./images/main/explore-offer/mobile-app-devlopment.png"
+                                    class="card-img-top" alt="...">
+                                <span>03/04</span>
+                            </div>
+                            <div class="card-body card-body-style">
+                                <h5 class="card-title fw-bold py-1">Mobile App Devlopment</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet elit, sed do tempor incididunt ut dolore
+                                    magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="card-footer border-0 bg-white">
+                                <button class="border-0 bg-white learn-more fw-bold ">Learn More <i
+                                        class="fa-solid fa-angle-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 card-style p-4">
+                            <div class="course-number d-flex justify-content-between px-3 align-items-center">
+                                <img class="img-fluid" src="./images/main/explore-offer/content-writing.png"
+                                    class="card-img-top" alt="...">
+                                <span>04/04</span>
+                            </div>
+                            <div class="card-body card-body-style">
+                                <h5 class="card-title fw-bold py-1">Content Writing</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet elit, sed do tempor incididunt ut dolore
+                                    magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                            <div class="card-footer border-0 bg-white">
+                                <button class="border-0 bg-white learn-more fw-bold ">Learn More <i
+                                        class="fa-solid fa-angle-right"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+        <!-- Check-Out Our Products -->
+        <article class="our-products py-5">
+            <div class="container">
+                <div class="header-text text-center py-5">
+                    <h1>Check-Out Our Products</h1>
+                    <p>Every week, our staff personally hand-pick some of the best new <br> website themes from our
+                        collection.
+                    </p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-3">
+                    <div class="col">
+                        <div class="card h-100 products-revew border-0">
+                            <div class="hover-bg">
+                                <img src="./images/main/products/product-1.png" class="card-img-top" alt="...">
+                                <div
+                                    class="middle mx-auto d-flex justify-content-center text-center align-content-center">
+                                    <button
+                                        class="product-button-eye rounded-pill d-flex align-items-center me-1 py-1 px-2">
+                                        <i class="fa-regular fa-eye me-1"></i> View Product</button>
+                                    <button
+                                        class="product-button-cart rounded-pill d-flex align-items-center me-1 py-1 px-2">
+                                        <i class="fa-solid fa-cart-shopping me-1"></i> View
+                                        Product</button>
+                                </div>
+                            </div>
+                            <div class="card-body card-body-style">
+                                <h5 class="card-title title-card">SHOP MANAGEMENT SYSTEM</h5>
+                                <div class="script-name d-flex justify-content-between">
+                                    <p class="card-text course px-2 d-flex align-items-center">PHP SCRIPT</p>
+                                    <p class="fw-bolder dollar">$12 <span class="fw-normal">(34 Sale)</span></p>
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="point">(4.9)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 products-revew border-0">
+                            <div class="hover-bg">
+                                <img src="./images/main/products/product-2.png" class="card-img-top" alt="...">
+                                <div
+                                    class="middle mx-auto d-flex justify-content-center text-center align-content-center">
+                                    <button
+                                        class="product-button-eye rounded-pill d-flex align-items-center me-1 py-1 px-2">
+                                        <i class="fa-regular fa-eye me-1"></i> View Product</button>
+                                    <button
+                                        class="product-button-cart rounded-pill d-flex align-items-center me-1 py-1 px-2">
+                                        <i class="fa-solid fa-cart-shopping me-1"></i> View
+                                        Product</button>
+                                </div>
+                            </div>
+                            <div class="card-body card-body-style">
+                                <h5 class="card-title title-card">SHOP MANAGEMENT SYSTEM</h5>
+                                <div class="script-name d-flex justify-content-between">
+                                    <p class="card-text course px-2 d-flex align-items-center">PHP SCRIPT</p>
+                                    <p class="fw-bolder dollar">$12 <span class="fw-normal">(34 Sale)</span></p>
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="point">(4.9)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 products-revew border-0">
+                            <div class="hover-bg">
+                                <img src="./images/main/products/product-3.png" class="card-img-top" alt="...">
+                                <div
+                                    class="middle mx-auto d-flex justify-content-center text-center align-content-center">
+                                    <button
+                                        class="product-button-eye rounded-pill d-flex align-items-center me-1 py-1 px-2">
+                                        <i class="fa-regular fa-eye me-1"></i> View Product</button>
+                                    <button
+                                        class="product-button-cart rounded-pill d-flex align-items-center me-1 py-1 px-2">
+                                        <i class="fa-solid fa-cart-shopping me-1"></i> View
+                                        Product</button>
+                                </div>
+                            </div>
+                            <div class="card-body card-body-style">
+                                <h5 class="card-title title-card">SHOP MANAGEMENT SYSTEM</h5>
+                                <div class="script-name d-flex justify-content-between">
+                                    <p class="card-text course px-2 d-flex align-items-center">PHP SCRIPT</p>
+                                    <p class="fw-bolder dollar">$12 <span class="fw-normal">(34 Sale)</span></p>
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="point">(4.9)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 products-revew border-0">
+                            <div class="hover-bg">
+                                <img src="./images/main/products/product-4.png" class="card-img-top" alt="...">
+                                <div
+                                    class="middle mx-auto d-flex justify-content-center text-center align-content-center">
+                                    <button
+                                        class="product-button-eye rounded-pill d-flex align-items-center me-1 py-1 px-2">
+                                        <i class="fa-regular fa-eye me-1"></i> View Product</button>
+                                    <button
+                                        class="product-button-cart rounded-pill d-flex align-items-center me-1 py-1 px-2">
+                                        <i class="fa-solid fa-cart-shopping me-1"></i> View
+                                        Product</button>
+                                </div>
+                            </div>
+                            <div class="card-body card-body-style">
+                                <h5 class="card-title title-card">SHOP MANAGEMENT SYSTEM</h5>
+                                <div class="script-name d-flex justify-content-between">
+                                    <p class="card-text course px-2 d-flex align-items-center">PHP SCRIPT</p>
+                                    <p class="fw-bolder dollar">$12 <span class="fw-normal">(34 Sale)</span></p>
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="point">(4.9)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 products-revew border-0">
+                            <div class="hover-bg">
+                                <img src="./images/main/products/product-5.png" class="card-img-top" alt="...">
+                                <div
+                                    class="middle mx-auto d-flex justify-content-center text-center align-content-center">
+                                    <button
+                                        class="product-button-eye rounded-pill d-flex align-items-center me-1 py-1 px-2">
+                                        <i class="fa-regular fa-eye me-1"></i> View Product</button>
+                                    <button
+                                        class="product-button-cart rounded-pill d-flex align-items-center me-1 py-1 px-2">
+                                        <i class="fa-solid fa-cart-shopping me-1"></i> View
+                                        Product</button>
+                                </div>
+                            </div>
+                            <div class="card-body card-body-style">
+                                <h5 class="card-title title-card">SHOP MANAGEMENT SYSTEM</h5>
+                                <div class="script-name d-flex justify-content-between">
+                                    <p class="card-text course px-2 d-flex align-items-center">PHP SCRIPT</p>
+                                    <p class="fw-bolder dollar">$12 <span class="fw-normal">(34 Sale)</span></p>
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="point">(4.9)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 products-revew border-0">
+                            <div class="hover-bg">
+                                <img src="./images/main/products/product-6.png" class="card-img-top" alt="...">
+                                <div
+                                    class="middle mx-auto d-flex justify-content-center text-center align-content-center">
+                                    <button
+                                        class="product-button-eye rounded-pill d-flex align-items-center me-1 py-1 px-2">
+                                        <i class="fa-regular fa-eye me-1"></i> View Product</button>
+                                    <button
+                                        class="product-button-cart rounded-pill d-flex align-items-center me-1 py-1 px-2">
+                                        <i class="fa-solid fa-cart-shopping me-1"></i> View
+                                        Product</button>
+                                </div>
+                            </div>
+                            <div class="card-body card-body-style">
+                                <h5 class="card-title title-card">SHOP MANAGEMENT SYSTEM</h5>
+                                <div class="script-name d-flex justify-content-between">
+                                    <p class="card-text course px-2 d-flex align-items-center">PHP SCRIPT</p>
+                                    <p class="fw-bolder dollar">$12 <span class="fw-normal">(34 Sale)</span></p>
+                                </div>
+                                <div class="star">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <span class="point">(4.9)</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="text-white rounded-pill py-3 px-4 d-flex align-items-center border-0 fw-bolder my-5 m-auto ">View
+                    All Item <i class="fa-solid fa-arrow-right-long ps-2"></i></button>
+            </div>
+        </article>
+        <!-- Meet Our associate pertner fintechsolver -->
+        <article class="meet-associate">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 fintechsolver">
+                        <h1 class="fw-bolder">Meet Our Associate Pertner <span>Fintechsolver</span></h1>
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                            more-or-less normal distribution of letters, as opposed to using</p>
+
+                        <button class="text-white rounded-pill py-3 px-4 d-flex border-0 fw-bolder my-5">Learn
+                            More <i class="fa-solid fa-arrow-right-long ps-2"></i></button>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <img class="img-fluid" src="./images/main/associate.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Contact with us -->
+        <article class="contact-us">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 contact-with-information">
+                        <img class="img-fluid w-25" src="./images/main/phone-call.png" alt="">
+                        <h1 class="fw-bolder py-3">Fast <span>Response!</span></h1>
+                        <ul class="p-0">
+                            <li class="my-3 align-items-center justify-content-center"><img class="pe-2 me-3"
+                                    src="./images/main/contact/gmail.png" alt="">hellomrhosen@gmail.com
+                            </li>
+                            <li class="my-3 align-items-center justify-content-center"><img class="pe-2 me-3"
+                                    src="./images/main/contact/skype-1.png" alt="">example.skype
+                            </li>
+                            <li class="my-3 align-items-center justify-content-center"><img class="pe-2 me-3"
+                                    src="./images/main/contact/messenger.png" alt="">messenger.example.com
+                            </li>
+                            <li class="my-3 align-items-center justify-content-center"><img class="pe-1 me-3"
+                                    src="./images/main/contact/whatsapp.png" alt="">+880171-6199668
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 contact-with-field pt-5">
+                        <h1 class="fw-bold"><span>Contact</span> with us</h1>
+                        <p>Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non
+                            id blandit netus.</p>
+
+                        <!-- input field -->
+                        <!-- partial:index.partial.html -->
+                        <div class="container-field" id="container">
+                            <form>
+                                <div class="form-group name-group">
+                                    <div class="palceholder">
+                                        <label for="name">Name</label>
+                                        <span class="star">*</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="form-group email-group">
+                                    <div class="palceholder">
+                                        <label for="email">Email</label>
+                                        <!-- <span class="star">*</span> -->
+                                    </div>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="form-group phone-number-group">
+                                    <div class="palceholder">
+                                        <label for="phone-number web_site">Phone number</label>
+                                        <span class="star">*</span>
+                                    </div>
+                                    <input type="text" class="form-control" id="phone-number web_site" required>
+                                </div>
+
+                                <div class="form-group area-field-group">
+                                    <div class="palceholder">
+                                        <label for="area-field web_site">Message</label>
+                                    </div>
+                                    <textarea type="text" class="form-control" id="area-field web_site" name="" id=""
+                                        cols="10" rows="5"></textarea>
+                                </div>
+                                <div class="send-button">
+                                    <button
+                                        class="text-white rounded-pill py-3 px-4 d-flex border-0 fw-bolder my-5 w-100 d-flex  justify-content-center">SEND</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
     </main>
 
 
 
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-
-    <!-- Bootstrap js link -->
+    <!-- Bootstrap JS Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
+    <!-- partial -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <!-- <script src="./script.js"></script> -->
+
+    <!-- custom javascript link -->
+    <script src="./javascript/app.js"></script>
+</body>
+</div>
+</article>
+</main>
+
+
+
+
+
+<!-- Bootstrap js link -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+
+
+<!-- Custom JS Link -->
+<script src="./javascript/app.js"></script>
 </body>
 
 </html>

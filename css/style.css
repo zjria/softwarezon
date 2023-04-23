@@ -4,9 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 
+/* Primary Style start */
 body {
     font-family: 'Rubik';
 }
+
+.banner-text button, .solution-studio button, .our-products button, .meet-associate button, .send-button button {
+    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
+    border-radius: 10000px;
+}
+
+/* Primary Style End */
+
 
 .navbar-section {
     background: radial-gradient(81.16% 130.98% at 40% -5.92%, rgba(243, 145, 34, 0.8) -5%, #000 100%);
@@ -31,16 +40,12 @@ body {
     line-height: 70px;
 }
 
-.banner-text button, .solution-studio button {
-    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
-}
-
 .navbar-light .navbar-toggler {
     color: #f9fafb;
     border-color: #f8f9fa;
 }
 
-.solution-studio {
+.solution-studio, .our-products, .explore-offer, .meet-associate {
     background: #F5F5F5;
 }
 
@@ -52,9 +57,338 @@ body {
     color: #626262;
 }
 
+/* how we work */
+.how-work {
+    background: rgba(154, 154, 154, 0.03);
+}
+
+.how-work .card-style {
+    background: rgb(154 154 154 / 0%);
+}
+
+.how-work .card-style h5 {
+    font-size: 36px;
+    line-height: 29px;
+    color: #191717;
+}
+
+.how-work .card-style p {
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #626262;
+}
+
+/* Explore What We Offer */
+
+.card-style .course-number img {
+    height: 95px;
+    width: 95px;
+}
+
+.card-style .course-number span {
+    font-size: 29.3333px;
+    line-height: 27px;
+    color: #0D0E16;
+    opacity: 0.5;
+}
+
+.card-style .card-body-style h5 {
+    font-size: 38px;
+    line-height: 45px;
+    color: #0D0E16;
+}
+
+.card-style .card-body-style p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.card-style .learn-more {
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.card-style:hover .learn-more {
+    color: #F7A421;
+    text-decoration: underline;
+}
+
+.card-style:hover {
+    border: none;
+}
+
+/* Check-Out Our Products */
+
+.products-revew {
+    position: relative;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: -50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.products-revew:hover img {
+    opacity: 0.1;
+}
+
+.products-revew:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.products-revew .product-button-eye {
+    background: white;
+    color: #F39022;
+    border: 1px solid #F39022;
+}
+
+.products-revew .product-button-cart {
+    background: none;
+    color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+}
+
+.products-revew .product-button-cart img {
+    background: none;
+    color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+}
+
+.products-revew:hover .hover-bg {
+    position: relative;
+    background-color: #212529cf;
+    border: 1px solid white;
+    border-radius: .25rem;
+}
+
+.card-body-style .title-card {
+    font-size: 20px;
+}
+
+.script-name .course {
+    background: #69B2E6;
+    border-radius: 10000px;
+    color: white;
+}
+
+.script-name .dollar {
+    font-size: 20px;
+}
+
+.card-body-style .star {
+    color: #40D986;
+    border-radius: 1px;
+}
+
+.card-body-style .point {
+    color: black;
+}
+
+/* Meet Our associate pertner fintechsolver */
+.meet-associate h1 {
+    font-size: 42px;
+    line-height: 57px;
+    text-transform: capitalize;
+    color: #1A1717;
+}
+
+.meet-associate span {
+    color: #F69E21;
+}
+
+.meet-associate p {
+    font-size: 18px;
+    line-height: 30px;
+    color: #777777;
+}
+
+.meet-associate img {
+    height: 494px;
+}
+
+/* Contact with us */
+.contact-us {
+    background: #050403;
+}
+
+.form-section input {
+    border-radius: 0;
+    background: linear-gradient(0deg, #0C0C0C, #0C0C0C),
+        linear-gradient(90deg, rgb(251 251 251) 0%, rgb(255 255 255) 100%);
+    color: white;
+    border-radius: 2px;
+    border-color: #f79305db;
+    outline: 0;
+    box-shadow: 0px;
+}
+
+.form-section input:focus {
+    border-radius: 0;
+    background: linear-gradient(0deg, #0C0C0C, #0C0C0C),
+        linear-gradient(90deg, rgb(251 251 251) 0%, rgb(255 255 255) 100%);
+    color: white;
+    border-radius: 2px;
+    border-color: #f79305db;
+    outline: 0;
+    box-shadow: 0px;
+}
+
+.form-control:focus {
+    border-color: #f79305db;
+    outline: 0;
+    box-shadow: 0px;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+}
+
+.form-section input[type='text']::-webkit-input-placeholder {
+    color: #fff
+}
 
 
+/* textarea {
+    border-radius: 0;
+    background: linear-gradient(0deg, #0C0C0C, #0C0C0C),
+        linear-gradient(90deg, rgb(251 251 251) 0%, rgb(255 255 255) 100%);
+    color: white;
+    border-radius: 2px;
+    border-color: #f79305db;
+    outline: 0;
+    box-shadow: 0px;
+    width: 100%;
+    padding: 15px;
+} */
 
+.text-area {
+    width: 100%;
+}
+
+::placeholder {
+    color: #fff
+}
+
+.input-group input.form-control {
+    color: #000;
+}
+
+.contact-with-field h1 span {
+    color: #F39022;
+}
+
+.contact-with-field h1 {
+    color: #fff;
+}
+
+.contact-with-field p {
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #ffffffb0;
+}
+
+.contact-with-information ul li {
+    list-style: none;
+    color: white;
+    font-size: 20px;
+}
+
+.contact-with-information ul li img {
+    background: rgb(242 230 230 / 26%);
+    padding: 10px;
+    border-radius: 100%;
+}
+
+.contact-with-information h1 {
+    font-size: 36px;
+    line-height: 43px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.contact-with-information h1 span {
+    color: #F39022;
+}
+
+/* Contact Field */
+.centered {
+    float: none;
+    margin: 100px auto;
+}
+
+.form-group {
+    position: relative;
+    margin: 16px 0;
+}
+
+.form-group .palceholder {
+    position: absolute;
+    top: 8px;
+    left: 12px;
+    display: none;
+}
+
+.form-group label {
+    font-wight: normal;
+}
+
+.form-group .star {
+    color: #ff0000;
+}
+
+input {
+    padding: 12px;
+    width: 80%;
+}
+
+.form-group label, .form-group .palceholder, input {
+    color: white;
+}
+
+.form-control {
+    background: rgb(255 255 255 / 11%);
+    color: #fff;
+    font-weight: normal;
+
+}
+
+.form-control:focus {
+    border-color: #f79305db;
+    outline: 0;
+    box-shadow: 0px;
+    outline: none;
+    box-shadow: none;
+    color: #fff;
+    background: rgb(255 255 255 / 11%);
+    font-weight: normal;
+}
 
 
 /* ......................
@@ -101,6 +435,14 @@ body {
     .banner-text button, .solution-studio button {
         margin: auto;
     }
+
+    .meet-associate .fintechsolver {
+        text-align: center;
+    }
+
+    .meet-associate .fintechsolver button {
+        margin: auto;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -141,6 +483,14 @@ body {
     }
 
     .banner-text button, .solution-studio button {
+        margin: auto;
+    }
+
+    .meet-associate .fintechsolver {
+        text-align: center;
+    }
+
+    .meet-associate .fintechsolver button {
         margin: auto;
     }
 }
