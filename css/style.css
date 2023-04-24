@@ -390,6 +390,93 @@ input {
     font-weight: normal;
 }
 
+/* Our happy clients */
+.happy-client h1 {
+    color: #000;
+    font-size: 48px;
+    line-height: 57px;
+    text-transform: capitalize;
+}
+
+.star-rating .star-icons i {
+    color: #F08F61;
+}
+
+.star-rating .star-icons .disabled {
+    color: #F08F61;
+    opacity: 0.3;
+}
+
+.customer-information {
+    display: grid;
+    grid-template-columns: 18% 82%;
+    align-items: center;
+}
+
+img.img-fluid.rounded-pill {
+    width: 50px;
+}
+
+
+.cline-button button {
+    border: 1px solid #F39022;
+    color: #666666;
+}
+
+
+/* button.carousel-control-prev {
+    background: red;
+}
+
+button.carousel-control-next {
+    background: rebeccapurple;
+} */
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: -70px;
+}
+
+.wrapper .owl-prev,
+.wrapper .owl-next {
+    position: absolute;
+    top: -40%;
+}
+
+.wrapper .owl-prev b,
+.wrapper .owl-next b {
+    color: #666666;
+    background-color: white;
+    font-size: 25px;
+    padding: 0px 10px;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: #86979100;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.wrapper .owl-prev:hover b,
+.wrapper .owl-next:hover b {
+    color: #fff;
+    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
+    border: 0px solid #CCCCCC;
+    font-weight: bold;
+}
+
+.wrapper .owl-prev {
+    right: 15%;
+}
+
+.wrapper .owl-next {
+    right: 8%;
+}
+
 
 /* ......................
     Responsive web degain section
