@@ -6,74 +6,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Softwarezon</title>
-    <!-- Bootstrap css link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!-- input field -->
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+
     <!-- Owl Carosul CDN Link -->
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+
+    <!-- Bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
     <!-- custom css link -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <!-- Header Section (Navbar) -->
-    <div class="navbar-section pb-5">
-        <div class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+    <header class="navbar-header">
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#"><img class="img-fluid w-75" src="./images/header/group.png" alt=""
-                            srcset=""></a>
+                    <a class="navbar-brand" href="#">Navbar scroll</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
+                        data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false"
+                        aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <div class="collapse navbar-collapse" id="navbarScroll">
+                        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                            style="--bs-scroll-height: 100px;">
                             <li class="nav-item">
-                                <a class="nav-link text-white fw-bold" aria-current="page" href="#">Home</a>
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white fw-bold" href="#">About Us</a>
+                                <a class="nav-link" href="#">Link</a>
                             </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link text-white fw-bold" href="#" id="navbarDropdown" role="button"
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
                                     data-bs-toggle="dropdown" aria-expanded="false">
-                                    Services <i class="fa-solid fa-angle-down"></i>
+                                    Link
                                 </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
                                     <li><a class="dropdown-item" href="#">Action</a></li>
                                     <li><a class="dropdown-item" href="#">Another action</a></li>
                                     <li>
                                         <hr class="dropdown-divider">
                                     </li>
-                                    <li><a class="dropdown-item" href="#">Something else here</a>
-                                    </li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-white fw-bold" aria-current="page" href="#">Blog</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white fw-bold" aria-current="page" href="#">Support
-                                    Page</a>
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Link</a>
                             </li>
                         </ul>
-                        <button class="btn-whatsapp rounded-pill py-1 px-3 d-flex align-items-center fw-bold">
-                            <img class="whatsapp-img me-2 rounded-circle p-1" src="./images/header/whatsapp.png" alt="">
-                            Whatsapp Us
-                        </button>
+                        <form class="d-flex">
+                            <button
+                                class="btn-whatsapp rounded-pill py-1 px-3 d-flex align-items-center fw-bold ms-auto">
+                                <img class="whatsapp-img me-2 rounded-circle p-1" src="./images/header/whatsapp.png"
+                                    alt="">
+                                Whatsapp Us
+                            </button>
+                        </form>
                     </div>
                 </div>
             </nav>
-            <!-- Header Banner Section -->
+            <!--  Banner Section -->
             <div class="banner-section pt-5">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-sm-12 col-md-6">
@@ -95,13 +96,15 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
+        </section>
+    </header>
 
-    <!-- Main Section -->
+
+
+    <!-- Main Section statr -->
     <main>
+        Software Solution studio
         <article class="solution-studio py-5">
-            <!-- Software Solution studio -->
             <div class="container">
                 <div class="row justify-content-center align-items-center pt-5">
                     <div class="col-sm-12 col-md-6">
@@ -123,7 +126,7 @@
                 </div>
             </div>
         </article>
-        <!-- How We Work -->
+        <!-- How We Work section -->
         <article class="how-work pt-5">
             <div class="container">
                 <h1 class="text-center pb-3">How We Work</h1>
@@ -164,7 +167,7 @@
                 </div>
             </div>
         </article>
-        <!-- Explore What We Offer -->
+        <!-- Explore What We Offer section -->
         <article class="explore-offer py-5">
             <div class="container">
                 <div class="offer-header text-center py-5">
@@ -248,7 +251,7 @@
                 </div>
             </div>
         </article>
-        <!-- Check-Out Our Products -->
+        <!-- Check-Out Our Products section -->
         <article class="our-products py-5">
             <div class="container">
                 <div class="header-text text-center py-5">
@@ -456,7 +459,7 @@
                     All Item <i class="fa-solid fa-arrow-right-long ps-2"></i></button>
             </div>
         </article>
-        <!-- Meet Our associate pertner fintechsolver -->
+        <!-- Meet Our associate pertner fintechsolver section -->
         <article class="meet-associate">
             <div class="container">
                 <div class="row">
@@ -476,8 +479,8 @@
             </div>
         </article>
 
-        <!-- Contact with us -->
-        <article class="contact-us">
+        <!-- Contact with us section -->
+        <article class="contact-us pb-5">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 contact-with-information">
@@ -503,54 +506,30 @@
                         <p>Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo molestie vel, ornare non
                             id blandit netus.</p>
 
-                        <!-- input field -->
-                        <!-- partial:index.partial.html -->
-                        <div class="container-field" id="container">
-                            <form>
-                                <div class="form-group name-group">
-                                    <div class="palceholder">
-                                        <label for="name">Name</label>
-                                        <span class="star">*</span>
-                                    </div>
-                                    <input type="text" class="form-control" id="name" required>
-                                </div>
-                                <div class="form-group email-group">
-                                    <div class="palceholder">
-                                        <label for="email">Email</label>
-                                        <!-- <span class="star">*</span> -->
-                                    </div>
-                                    <input type="email" class="form-control" id="email" required>
-                                </div>
-                                <div class="form-group phone-number-group">
-                                    <div class="palceholder">
-                                        <label for="phone-number web_site">Phone number</label>
-                                        <span class="star">*</span>
-                                    </div>
-                                    <input type="text" class="form-control" id="phone-number web_site" required>
-                                </div>
+                        <form action="#" class="form-action">
+                            <div class="mb-1 input-field">
+                                <input type="text" class="w-100 my-2 py-2 ps-3 rounded-3" placeholder="Name *">
 
-                                <div class="form-group area-field-group">
-                                    <div class="palceholder">
-                                        <label for="area-field web_site">Message</label>
-                                    </div>
-                                    <textarea type="text" class="form-control" id="area-field web_site" name="" id=""
-                                        cols="10" rows="5"></textarea>
-                                </div>
-                                <div class="send-button">
-                                    <button
-                                        class="text-white rounded-pill py-3 px-4 d-flex border-0 fw-bolder my-5 w-100 d-flex  justify-content-center">SEND</button>
-                                </div>
-                            </form>
-                        </div>
+                                <input type="email" class="w-100 my-2 py-2 ps-3 rounded-3" placeholder="Email">
+
+                                <input type="number" class="w-100 my-2 py-2 ps-3 rounded-3"
+                                    placeholder="Phone number *">
+
+                                <textarea class="w-100 my-2 p-3 rounded-3" name="" id="" cols="55" rows="5"
+                                    placeholder="Message"></textarea>
+                                <button
+                                    class="text-white rounded-pill py-3 px-4 d-flex border-0 mt-2 w-100 justify-content-center">SEND</button>
+                            </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </article>
-        <!-- Our happy clients -->
+        <!-- Our happy clients section -->
         <article class="happy-client">
             <div class="container">
                 <h1 class="py-5 my-5 fw-bold">Our happy clients</h1>
-                <!-- carousel -->
+
                 <div class="wrapper container-full">
                     <div class="owl-carousel owl-theme img-carousel">
                         <div class="items">
@@ -1001,42 +980,191 @@
                     </div>
                 </div>
         </article>
+        <!-- Our Latest Blog section -->
+        <article class="latest-blog my-5 pb-5">
+            <section class="container my-5 py-5">
+                <div class="blog-header text-center py-5">
+                    <h1>Our Latest Blog</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non <br> nisl tincidunt ut
+                        elementum
+                        turpis.</p>
+                </div>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 border-0 blog-card">
+                            <img src="./images/main/blog/text.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title lh-base">Text message marketing
+                                    a specific audience.</h4>
+                            </div>
+                            <div class="card-footer bg-white d-flex justify-content-between">
+                                <button class=" pt-2 border-0 bg-white learn-more-btn fw-bold text-uppercase">Learn More
+                                    <i class="fa-solid fa-angle-right"></i></button>
+                                <span class="pt-2">April 30, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 blog-card">
+                            <img src="./images/main/blog/sms.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title lh-base">Who regulates SMS text message marketing?</h4>
+                            </div>
+                            <div class="card-footer bg-white d-flex justify-content-between">
+                                <button class=" pt-2 border-0 bg-white learn-more-btn fw-bold text-uppercase">Learn More
+                                    <i class="fa-solid fa-angle-right"></i></button>
+                                <span class="pt-2">April 30, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 border-0 blog-card">
+                            <img src="./images/main/blog/marketing.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h4 class="card-title lh-base">Text message marketing best practices</h4>
+                            </div>
+                            <div class="card-footer bg-white d-flex justify-content-between">
+                                <button class=" pt-2 border-0 bg-white learn-more-btn fw-bold text-uppercase">Learn More
+                                    <i class="fa-solid fa-angle-right"></i></button>
+                                <span class="pt-2">April 30, 2020</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="footer-btn text-white rounded-pill py-3 px-4 d-flex align-items-center border-0 my-5 m-auto ">Read
+                    All News <i class="fa-solid fa-angle-right ms-1"></i>
+                </button>
+            </section>
+        </article>
     </main>
 
 
+    <!-- Footer Section start -->
+    <footer class="footer-area">
+        <section class="container">
+            <div class="footer-header-content">
+                <article class="updated-news">
+                    <section class="container">
+                        <div class="updated-information py-5 px-2">
+                            <div class="row p-5">
+                                <div class="col-md-6">
+                                    <h1 class="text-white fw-bold m-0">Get your updated news</h1>
+                                    <p class="text-white">If you are going to use a passage of Lorem Ipsum, you need
+                                        <br> to
+                                        be
+                                        sure
+                                        there isn't
+                                        anything embarrassing.
+                                    </p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="email-field">
+                                        <div class="update-news rounded-pill pe-3 py-2">
+                                            <input class="w-75 py-3 border-0 rounded-pill ps-4" type="email" name=""
+                                                id="" placeholder="Enter your email ">
+                                            <button
+                                                class="footer-btn rounded-pill align-items-center border-0 text-white px-5 py-0">Send</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </article>
+            </div>
+            <div class="row footer-align">
+                <div class="col-12 col-md-3">
+                    <div class="footer-content">
+                        <h5 class="text-white py-5">Product</h5>
+                        <ul class="p-0">
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none">ENVATO</a>
+                            </li>
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none">CODECANYON</a>
+                            </li>
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none">THEMEFOREST</a>
+                            </li>
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none">CODESTER</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="footer-content">
+                        <h5 class="text-white py-5">Help</h5>
+                        <ul class="p-0">
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none">Privacy
+                                    Policy</a>
+                            </li>
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none">Terms &
+                                    Condition</a>
+                            </li>
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none">Help Center</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="footer-content">
+                        <h5 class="text-white py-5">Quick Links</h5>
+                        <ul class="p-0">
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none">About</a>
+                            </li>
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none">Product</a>
+                            </li>
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none">Testimonial</a>
+                            </li>
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3">
+                    <div class="footer-content">
+                        <h5 class="text-white py-5">Get in touch</h5>
+                        <p class="text-white-50 pb-4 mb-5">You’ll find your next Marketing valu you prefer.</p>
+                        <ul class="p-0 d-flex socail-icons">
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none"><i
+                                        class="fa-brands fa-facebook-f"></i></a></li>
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none"><i
+                                        class="fa-brands fa-twitter"></i></a></li>
+                            <li class="list-group"><a href="" class="text-white-50 text-decoration-none"><i
+                                        class="fa-brands fa-linkedin-in"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <hr>
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6">
+                        <div class="imges-text d-flex align-items-center">
+                            <img class="img-fluid" src="./images/header/group.png" alt="">
+                            <h4 class="text-white ps-3">SOFTWAREZON</h4>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 text-end copy-right">
+                        <p class="text-white-50">Copyright 2020.com, All rights reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
 
     <!-- Swiper JS -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Bootstrap JS Link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
 
     <!-- Owl carosul js link -->
     <script src="./javascript/jquery-3.6.4.min.js"></script>
     <script src="./javascript/owl.carousel.min.js"></script>
 
-    <!-- custom javascript link -->
+    <!-- Bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Custom JS Link -->
     <script src="./javascript/app.js"></script>
-</body>
-</div>
-</article>
-</main>
-
-
-
-
-
-<!-- Bootstrap js link -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-
-
-
-<!-- Custom JS Link -->
-<script src="./javascript/app.js"></script>
 </body>
 
 </html>

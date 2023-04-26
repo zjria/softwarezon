@@ -5,17 +5,27 @@
 
 
 /* Primary Style start */
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Rubik';
 }
 
-.banner-text button, .solution-studio button, .our-products button, .meet-associate button, .send-button button {
+.banner-text button, .solution-studio button, .our-products button, .meet-associate button, .send-button button, .latest-blog .footer-btn, .form-action button, .email-field .update-news button {
     background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
     border-radius: 10000px;
 }
 
 /* Primary Style End */
 
+
+/* Navbar section start */
 
 .navbar-section {
     background: radial-gradient(81.16% 130.98% at 40% -5.92%, rgba(243, 145, 34, 0.8) -5%, #000 100%);
@@ -57,7 +67,7 @@ body {
     color: #626262;
 }
 
-/* how we work */
+/* how we work section */
 .how-work {
     background: rgba(154, 154, 154, 0.03);
 }
@@ -79,7 +89,7 @@ body {
     color: #626262;
 }
 
-/* Explore What We Offer */
+/* Explore What We Offer section */
 
 .card-style .course-number img {
     height: 95px;
@@ -115,13 +125,14 @@ body {
 .card-style:hover .learn-more {
     color: #F7A421;
     text-decoration: underline;
+
 }
 
 .card-style:hover {
-    border: none;
+    border: 0;
 }
 
-/* Check-Out Our Products */
+/* Check-Out Our Products section */
 
 .products-revew {
     position: relative;
@@ -211,7 +222,7 @@ body {
     color: black;
 }
 
-/* Meet Our associate pertner fintechsolver */
+/* Meet Our associate pertner fintechsolver section */
 .meet-associate h1 {
     font-size: 42px;
     line-height: 57px;
@@ -233,85 +244,9 @@ body {
     height: 494px;
 }
 
-/* Contact with us */
+/* Contact with us section */
 .contact-us {
     background: #050403;
-}
-
-.form-section input {
-    border-radius: 0;
-    background: linear-gradient(0deg, #0C0C0C, #0C0C0C),
-        linear-gradient(90deg, rgb(251 251 251) 0%, rgb(255 255 255) 100%);
-    color: white;
-    border-radius: 2px;
-    border-color: #f79305db;
-    outline: 0;
-    box-shadow: 0px;
-}
-
-.form-section input:focus {
-    border-radius: 0;
-    background: linear-gradient(0deg, #0C0C0C, #0C0C0C),
-        linear-gradient(90deg, rgb(251 251 251) 0%, rgb(255 255 255) 100%);
-    color: white;
-    border-radius: 2px;
-    border-color: #f79305db;
-    outline: 0;
-    box-shadow: 0px;
-}
-
-.form-control:focus {
-    border-color: #f79305db;
-    outline: 0;
-    box-shadow: 0px;
-    outline: none;
-    box-shadow: none;
-    color: #fff;
-}
-
-.form-section input[type='text']::-webkit-input-placeholder {
-    color: #fff
-}
-
-
-/* textarea {
-    border-radius: 0;
-    background: linear-gradient(0deg, #0C0C0C, #0C0C0C),
-        linear-gradient(90deg, rgb(251 251 251) 0%, rgb(255 255 255) 100%);
-    color: white;
-    border-radius: 2px;
-    border-color: #f79305db;
-    outline: 0;
-    box-shadow: 0px;
-    width: 100%;
-    padding: 15px;
-} */
-
-.text-area {
-    width: 100%;
-}
-
-::placeholder {
-    color: #fff
-}
-
-.input-group input.form-control {
-    color: #000;
-}
-
-.contact-with-field h1 span {
-    color: #F39022;
-}
-
-.contact-with-field h1 {
-    color: #fff;
-}
-
-.contact-with-field p {
-    font-size: 16px;
-    line-height: 34px;
-    letter-spacing: 0.01em;
-    color: #ffffffb0;
 }
 
 .contact-with-information ul li {
@@ -337,60 +272,28 @@ body {
     color: #F39022;
 }
 
-/* Contact Field */
-.centered {
-    float: none;
-    margin: 100px auto;
+.contact-with-field h1 span {
+    color: #F39022;
 }
 
-.form-group {
-    position: relative;
-    margin: 16px 0;
-}
-
-.form-group .palceholder {
-    position: absolute;
-    top: 8px;
-    left: 12px;
-    display: none;
-}
-
-.form-group label {
-    font-wight: normal;
-}
-
-.form-group .star {
-    color: #ff0000;
-}
-
-input {
-    padding: 12px;
-    width: 80%;
-}
-
-.form-group label, .form-group .palceholder, input {
-    color: white;
-}
-
-.form-control {
-    background: rgb(255 255 255 / 11%);
+.contact-with-field h1 {
     color: #fff;
-    font-weight: normal;
-
 }
 
-.form-control:focus {
-    border-color: #f79305db;
-    outline: 0;
-    box-shadow: 0px;
-    outline: none;
-    box-shadow: none;
-    color: #fff;
-    background: rgb(255 255 255 / 11%);
-    font-weight: normal;
+.contact-with-field p {
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    color: #ffffffb0;
 }
 
-/* Our happy clients */
+.form-action input, .form-action textarea {
+    background: rgba(255, 255, 255, 0.11);
+    border: 1px solid rgba(224, 224, 224, 0.42);
+    border-radius: 8px;
+}
+
+/* Our happy clients section */
 .happy-client h1 {
     color: #000;
     font-size: 48px;
@@ -422,15 +325,6 @@ img.img-fluid.rounded-pill {
     border: 1px solid #F39022;
     color: #666666;
 }
-
-
-/* button.carousel-control-prev {
-    background: red;
-}
-
-button.carousel-control-next {
-    background: rebeccapurple;
-} */
 
 .wrapper {
     display: flex;
@@ -470,17 +364,135 @@ button.carousel-control-next {
 }
 
 .wrapper .owl-prev {
-    right: 15%;
+    right: 13%;
 }
 
 .wrapper .owl-next {
-    right: 8%;
+    right: 7%;
+}
+
+.latest-blog .blog-card .learn-more-btn {
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.latest-blog .blog-card:hover .learn-more-btn {
+    color: #F39022;
+    text-decoration: underline;
+}
+
+.blog-card .card-footer span {
+    line-height: 33px;
+    color: #56565C;
+}
+
+/* Get your updated news section */
+.updated-information {
+    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
+    border-radius: 30px;
+    margin: auto;
+}
+
+.form-box {
+    padding: 10px 20px;
+    background: white;
+    color: #AFAFAE;
+}
+
+.form-box input {
+    outline: none;
+    border: none;
+    border-radius: 50%;
+}
+
+input:-internal-autofill-selected {
+    appearance: menulist-button;
+    background-image: none !important;
+    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(255, 255, 255)) !important;
+    color: fieldtext !important;
+}
+
+.form-box input {
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    color: #1b8ff6;
+}
+
+.form-box input:hover {
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    color: #1b8ff6;
+}
+
+.update-news {
+    display: flex;
+    background: #FFFFFF;
+}
+
+.update-news input {
+    font-size: 18px;
+    color: #000;
+    outline: none;
+}
+
+.update-news button {
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+/* Footer Section style section */
+.footer-area {
+    background-image: url(../images/footer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-content h5 {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.footer-content ul li a, .footer-content p {
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 30px;
+}
+
+.footer-header-content {
+    margin-top: -70px;
+}
+
+.footer-content .socail-icons li a {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0px 5px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.footer-content .socail-icons li a i {
+    color: white;
+}
+
+.footer-bottom hr {
+    border: 1px solid #606060;
 }
 
 
-/* ......................
-    Responsive web degain section
-...................... */
+
+/* ....................................................
+                Responsive web degain section
+...................................................... */
 
 @media screen and (max-width: 576px) {
     div#navbarSupportedContent {
@@ -529,6 +541,35 @@ button.carousel-control-next {
 
     .meet-associate .fintechsolver button {
         margin: auto;
+    }
+
+    .wrapper .owl-prev {
+        right: 34%;
+    }
+
+    .wrapper .owl-next {
+        right: 20%;
+    }
+
+    .updated-information.py-5.px-2 {
+        text-align: center;
+    }
+
+    .footer-area .footer-align {
+        text-align: center;
+    }
+
+    ul.p-0.d-flex.socail-icons {
+        justify-content: center;
+    }
+
+    .imges-text.d-flex.align-items-center {
+        justify-content: center;
+    }
+
+    .copy-right p {
+        justify-content: center;
+        text-align: center;
     }
 }
 
@@ -580,6 +621,35 @@ button.carousel-control-next {
     .meet-associate .fintechsolver button {
         margin: auto;
     }
+
+    .wrapper .owl-prev {
+        right: 11%;
+    }
+
+    .wrapper .owl-next {
+        right: 0%;
+    }
+
+    .updated-information.py-5.px-2 {
+        text-align: center;
+    }
+
+    .footer-area .footer-align {
+        text-align: center;
+    }
+
+    ul.p-0.d-flex.socail-icons {
+        justify-content: center;
+    }
+
+    .imges-text.d-flex.align-items-center {
+        justify-content: center;
+    }
+
+    .copy-right p {
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -594,5 +664,25 @@ button.carousel-control-next {
 
     .solution-studio h1 {
         font-size: 25px;
+    }
+
+    .wrapper .owl-next {
+        right: 3%;
+    }
+
+    .wrapper .owl-prev {
+        right: 11%;
+    }
+
+    .updated-information.py-5.px-2 {
+        text-align: center;
+    }
+
+    .footer-area .footer-align {
+        text-align: center;
+    }
+
+    ul.p-0.d-flex.socail-icons {
+        justify-content: center;
     }
 }

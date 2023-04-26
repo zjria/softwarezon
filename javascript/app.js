@@ -8,11 +8,15 @@ $(".img-carousel").owlCarousel({
     autoplayHoverPause: true,
     navText: ["<b>⟵</b>", "<b>⟶</b>"],
     responsive: {
-        0: { items: 1.5 },
-        600: { items: 2.5 },
+        0: {
+            items: 1,
+            marge: true,
+        },
+        600: { items: 1.5 },
         900: {
             items: 2.5,
             marge: true,
         }
     },
 });
+
