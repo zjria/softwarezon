@@ -305,6 +305,10 @@ body {
     background: #050403;
 }
 
+.mb-1.input-field input, .mb-1.input-field textarea {
+    color: white;
+}
+
 .contact-with-information ul li {
     list-style: none;
     color: white;
@@ -428,6 +432,37 @@ img.img-fluid.rounded-pill {
     right: 7%;
 }
 
+/* Latest Blog Section */
+
+.animation-card {
+    background-color: transparent;
+    /* width: 300px; */
+    /* height: 300px; */
+    perspective: 1000px;
+}
+
+.blog-card {
+    position: relative;
+    /* width: 100%; */
+    /* height: 100%; */
+    /* text-align: center; */
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition-timing-function: ease-in-out;
+}
+
+.animation-card:hover .blog-card {
+    transform: rotateY(350deg);
+    transition-delay: 1s, 250ms;
+
+
+}
+
+
+
+
+
 .latest-blog .blog-card .learn-more-btn {
     font-size: 15px;
     line-height: 24px;
@@ -436,6 +471,15 @@ img.img-fluid.rounded-pill {
 .latest-blog .blog-card:hover .learn-more-btn {
     color: #F39022;
     text-decoration: underline;
+}
+
+.blog-card .card-footer button a {
+    line-height: 33px;
+    color: #000;
+}
+
+.blog-card:hover .card-footer button a {
+    color: #F39022;
 }
 
 .blog-card .card-footer span {
