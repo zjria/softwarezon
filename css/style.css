@@ -33,10 +33,15 @@ body {
 
 .btn-whatsapp {
     font-family: 'Space Grotesk';
-    font-size: 18px;
     color: #52FFA1;
     background: none;
     border: 1px solid #52FFA1;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.btn-whatsapp a {
+    color: #52FFA1;
 }
 
 .navbar-section button .whatsapp-img {
@@ -46,8 +51,17 @@ body {
 }
 
 .banner-text h1 {
-    font-size: 40px;
     line-height: 70px;
+    font-size: 56px;
+}
+
+.banner-text p {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.banner-section .banner-img img {
+    height: 588px;
 }
 
 .navbar-light .navbar-toggler {
@@ -74,6 +88,21 @@ body {
 
 .how-work .card-style {
     background: rgb(154 154 154 / 0%);
+    overflow: hidden;
+}
+
+.how-work .card-style img {
+    background: #fff;
+    padding: 15px;
+    border-radius: 100%;
+    margin-top: 10px;
+    transition: transform 1s;
+}
+
+.how-work .card-style:hover img {
+    transform: scale(1.2);
+    background: none;
+
 }
 
 .how-work .card-style h5 {
@@ -91,45 +120,55 @@ body {
 
 /* Explore What We Offer section */
 
-.card-style .course-number img {
+.explore-offer .card-style .course-number img {
     height: 95px;
     width: 95px;
 }
 
-.card-style .course-number span {
+.explore-offer .card-style .course-number span {
     font-size: 29.3333px;
     line-height: 27px;
     color: #0D0E16;
     opacity: 0.5;
 }
 
-.card-style .card-body-style h5 {
+.explore-offer .card-style .card-body-style h5 {
     font-size: 38px;
     line-height: 45px;
     color: #0D0E16;
 }
 
-.card-style .card-body-style p {
+.explore-offer .card-style .card-body-style p {
     font-size: 18px;
     line-height: 30px;
     color: #777777;
 }
 
-.card-style .learn-more {
+.explore-offer .card-style .learn-more a {
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
+    color: #000;
 }
 
-.card-style:hover .learn-more {
+.explore-offer .card-style:hover .learn-more {
     color: #F7A421;
     text-decoration: underline;
-
 }
 
-.card-style:hover {
-    border: 0;
+.explore-offer .card-style:hover .learn-more a {
+    color: #F7A421;
+    text-decoration: underline;
+}
+
+.explore-offer .card-style {
+    transition: 2s;
+}
+
+.explore-offer .card-style:hover {
+    box-shadow: 10px 5px 5px rgb(76, 76, 76);
+    transition-timing-function: ease-in-out;
 }
 
 /* Check-Out Our Products section */
@@ -174,19 +213,27 @@ body {
     padding: 16px 32px;
 }
 
-.products-revew .product-button-eye {
-    background: white;
-    color: #F39022;
-    border: 1px solid #F39022;
-}
-
-.products-revew .product-button-cart {
+.products-revew .product-button-cart img {
     background: none;
     color: #F5F5F5;
     border: 1px solid #F5F5F5;
 }
 
-.products-revew .product-button-cart img {
+.products-revew .hover-bg button a {
+    color: #fff;
+}
+
+.products-revew:hover .product-button-eye {
+    background: white;
+    color: #F39022;
+    border: 1px solid #F39022;
+}
+
+.products-revew:hover .product-button-eye a {
+    color: #F39022;
+}
+
+.products-revew:hover .product-button-cart {
     background: none;
     color: #F5F5F5;
     border: 1px solid #F5F5F5;
@@ -194,9 +241,11 @@ body {
 
 .products-revew:hover .hover-bg {
     position: relative;
-    background-color: #212529cf;
     border: 1px solid white;
     border-radius: .25rem;
+    background: rgba(35, 30, 30, 0.26);
+    backdrop-filter: blur(5.5px);
+    border-radius: 10px 10px 0px 0px;
 }
 
 .card-body-style .title-card {
@@ -245,6 +294,13 @@ body {
 }
 
 /* Contact with us section */
+
+.some-socail-icons li a i {
+    padding: 10px;
+    background: #5b5d5d99;
+    border-radius: 100%;
+}
+
 .contact-us {
     background: #050403;
 }
@@ -264,7 +320,6 @@ body {
 .contact-with-information h1 {
     font-size: 36px;
     line-height: 43px;
-    text-transform: uppercase;
     color: #FFFFFF;
 }
 
@@ -320,9 +375,11 @@ img.img-fluid.rounded-pill {
     width: 50px;
 }
 
-
 .cline-button button {
     border: 1px solid #F39022;
+}
+
+.cline-button button a {
     color: #666666;
 }
 
@@ -496,8 +553,11 @@ input:-internal-autofill-selected {
 
 @media screen and (max-width: 576px) {
     div#navbarSupportedContent {
-        margin: auto;
         text-align: center;
+    }
+
+    form.d-flex {
+        justify-content: center;
     }
 
     button.btn-whatsapp.rounded-pill.py-1.px-3.d-flex.align-items-center.fw-bold {
@@ -575,8 +635,11 @@ input:-internal-autofill-selected {
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
     div#navbarSupportedContent {
-        margin: auto;
         text-align: center;
+    }
+
+    form.d-flex {
+        justify-content: center;
     }
 
     button.btn-whatsapp.rounded-pill.py-1.px-3.d-flex.align-items-center.fw-bold {
@@ -653,6 +716,14 @@ input:-internal-autofill-selected {
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
+    div#navbarSupportedContent {
+        text-align: center;
+    }
+
+    form.d-flex {
+        justify-content: center;
+    }
+
     .banner-text h1 {
         font-size: 35px;
         line-height: 50px;
