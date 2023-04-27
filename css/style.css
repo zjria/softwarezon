@@ -455,13 +455,7 @@ img.img-fluid.rounded-pill {
 .animation-card:hover .blog-card {
     transform: rotateY(350deg);
     transition-delay: 1s, 250ms;
-
-
 }
-
-
-
-
 
 .latest-blog .blog-card .learn-more-btn {
     font-size: 15px;
@@ -487,6 +481,7 @@ img.img-fluid.rounded-pill {
     color: #56565C;
 }
 
+/* Footer Section style section */
 /* Get your updated news section */
 .updated-information {
     background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
@@ -529,29 +524,54 @@ input:-internal-autofill-selected {
     color: #1b8ff6;
 }
 
-.update-news {
-    display: flex;
-    background: #FFFFFF;
+.email-input-group {
+    background: white;
+    padding: 6px 20px;
+    border-radius: 20px;
 }
 
-.update-news input {
-    font-size: 18px;
-    color: #000;
-    outline: none;
+.email-input-group button {
+    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
+    border-radius: 1000px;
 }
 
-.update-news button {
-    font-size: 20px;
-    outline: none;
-    cursor: pointer;
-    transition: .3s;
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
-/* Footer Section style section */
+.form-control button:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 .footer-area {
     background-image: url(../images/footer.png);
     background-repeat: no-repeat;
     background-size: cover;
+    /* background-color: #cccccc; */
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    /* background: linear-gradient(180deg, #1A1717 43.1%, rgba(26, 23, 23, 0.9) 100%); */
+}
+
+article.updated-news {
+    position: relative;
+    top: -80px;
 }
 
 .footer-content h5 {
@@ -563,10 +583,6 @@ input:-internal-autofill-selected {
     font-size: 18px;
     line-height: 21px;
     line-height: 30px;
-}
-
-.footer-header-content {
-    margin-top: -70px;
 }
 
 .footer-content .socail-icons li a {
@@ -675,6 +691,11 @@ input:-internal-autofill-selected {
         justify-content: center;
         text-align: center;
     }
+
+    article.updated-news {
+        position: relative;
+        top: -30px;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -756,6 +777,11 @@ input:-internal-autofill-selected {
     .copy-right p {
         justify-content: center;
         text-align: center;
+    }
+
+    article.updated-news {
+        position: relative;
+        top: 15px;
     }
 }
 

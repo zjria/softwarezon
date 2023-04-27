@@ -765,7 +765,7 @@
                 </div>
         </article>
         <!-- Our Latest Blog section -->
-        <article class="latest-blog my-5 pb-5">
+        <article class="latest-blog my-5">
             <section class="container my-5 py-5">
                 <div class="blog-header text-center py-5">
                     <h1>Our Latest Blog</h1>
@@ -774,11 +774,9 @@
                         turpis.</p>
                 </div>
                 <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col animation-card">
+                    <div class="col-12 col-md-4 animation-card">
                         <div class="card h-100 border-0 blog-card">
-                            <div class="img-div">
-                                <img src="./images/main/blog/text.png" class="card-img-top" alt="...">
-                            </div>
+                            <img src="./images/main/blog/text.png" class="card-img-top" alt="...">
                             <div class="card-body">
                                 <h4 class="card-title lh-base">Text message marketing
                                     a specific audience.</h4>
@@ -791,7 +789,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-md-4 animation-card">
                         <div class="card h-100 blog-card">
                             <img src="./images/main/blog/sms.png" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -805,7 +803,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-12 col-md-4 animation-card">
                         <div class="card h-100 blog-card">
                             <img src="./images/main/blog/marketing.png" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -822,7 +820,7 @@
                 </div>
                 <button
                     class="footer-btn text-white rounded-pill py-3 px-4 d-flex align-items-center border-0 my-5 m-auto "><a
-                        href="#" class="text-decoration-none">Read
+                        href="#" class="text-decoration-none text-white">Read
                         All News <i class="fa-solid fa-angle-right ms-1"></i></a>
                 </button>
             </section>
@@ -833,37 +831,30 @@
     <!-- Footer Section start -->
     <footer class="footer-area">
         <section class="container">
-            <div class="footer-header-content">
-                <article class="updated-news">
-                    <section class="container">
-                        <div class="updated-information py-5 px-2">
-                            <div class="row p-5">
-                                <div class="col-md-6">
-                                    <h1 class="text-white fw-bold m-0">Get your updated news</h1>
-                                    <p class="text-white">If you are going to use a passage of Lorem Ipsum, you need
-                                        <br> to
-                                        be
-                                        sure
-                                        there isn't
-                                        anything embarrassing.
-                                    </p>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="email-field">
-                                        <div class="update-news rounded-pill pe-3 py-2">
-                                            <input class="w-75 py-3 border-0 rounded-pill ps-4" type="email" name=""
-                                                id="" placeholder="Enter your email ">
-                                            <button
-                                                class="footer-btn rounded-pill align-items-center border-0 text-white px-5 py-0"><a
-                                                    href="#" class="text-decoration-none">Send</a></button>
-                                        </div>
-                                    </div>
-                                </div>
+            <article class="updated-news">
+                <div class="updated-information py-5 px-2">
+                    <div class="row p-5 align-items-center">
+                        <div class="col-md-6">
+                            <h1 class="text-white fw-bold m-0">Get your updated news</h1>
+                            <p class="text-white">If you are going to use a passage of Lorem Ipsum, you need
+                                <br> to
+                                be
+                                sure
+                                there isn't
+                                anything embarrassing.
+                            </p>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group mb-3 email-input-group">
+                                <input type="email" class="form-control border-0" placeholder=""
+                                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                                <button class="btn border-0 text-white rounded-pill px-4" type="button"
+                                    id="button-addon2">SEDN</button>
                             </div>
                         </div>
-                    </section>
-                </article>
-            </div>
+                    </div>
+                </div>
+            </article>
             <div class="row footer-align">
                 <div class="col-12 col-md-3">
                     <div class="footer-content">
