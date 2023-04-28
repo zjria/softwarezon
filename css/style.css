@@ -24,11 +24,25 @@ body {
 
 /* Primary Style End */
 
+/* Header Top Section */
+.header-top-section .mobile-phone-number {
+    color: #0C0B0B;
+}
+
+.header-top-section .mobile-phone-number a {
+    color: #0C0B0B;
+}
+
+.top-header .closed-icons i {
+    padding: 5px;
+    background: #56565c26;
+    border-radius: 100%;
+}
 
 /* Navbar section start */
 
 .navbar-section {
-    background: radial-gradient(81.16% 130.98% at 40% -5.92%, rgba(243, 145, 34, 0.8) -5%, #000 100%);
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.07) 18%, #00800000 0%), radial-gradient(70.16% 92.98% at 40% 0.08%, rgba(250, 150, 41, 1.8) 0%, rgb(0 0 0) 100%);
 }
 
 .btn-whatsapp {
@@ -60,24 +74,26 @@ body {
     line-height: 24px;
 }
 
-.banner-section .banner-img img {
-    height: 588px;
-}
-
 .navbar-light .navbar-toggler {
     color: #f9fafb;
     border-color: #f8f9fa;
 }
 
+/* We're your virtual Software Solution studio */
 .solution-studio, .our-products, .explore-offer, .meet-associate {
     background: #F5F5F5;
 }
 
 .solution-studio h1 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.01em;
     color: #1A1717;
 }
 
 .solution-studio p {
+    font-size: 20px;
+    line-height: 29px;
     color: #626262;
 }
 
@@ -133,9 +149,10 @@ body {
 }
 
 .explore-offer .card-style .card-body-style h5 {
-    font-size: 38px;
-    line-height: 45px;
-    color: #0D0E16;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    color: #1A1717;
 }
 
 .explore-offer .card-style .card-body-style p {
@@ -696,6 +713,11 @@ article.updated-news {
         position: relative;
         top: -30px;
     }
+
+    .header-top-section .mobile-phone-number {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -783,6 +805,11 @@ article.updated-news {
         position: relative;
         top: 15px;
     }
+
+    .header-top-section .mobile-phone-number {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -801,6 +828,10 @@ article.updated-news {
 
     .banner-section .banner-img .w-75 {
         width: 100% !important;
+    }
+
+    button.btn-whatsapp.rounded-pill.py-1.px-3.d-flex.align-items-center.fw-bold {
+        margin: auto;
     }
 
     .solution-studio h1 {

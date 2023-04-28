@@ -19,16 +19,33 @@
     <!-- Bootstrap css link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
 
     <!-- custom css link -->
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
+    <!-- Header Top Section -->
+    <section class="header-top-section">
+        <div class="container">
+            <div class="top-header d-flex py-2">
+                <div class="mobile-phone-number d-flex mx-auto">
+                    <p class="m-0 text-uppercase fw-medium pe-2 me-1">FOR ANY inquiry- +8801741773194</p>
+                    <a href="#" class="fw-medium">Call Now <i
+                            class="fa-solid fa-arrow-right-long text-decoration-underline"></i></a>
+                </div>
+                <div class="closed-icons">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+
+            </div>
+        </div>
+    </section>
     <!-- Header Section (Navbar) -->
     <header class="navbar-header navbar-section pb-5">
-        <section class="container">
-            <nav class="navbar navbar-expand-lg navbar-light">
+        <section class="container pb-5">
+            <nav class="navbar navbar-expand-lg navbar-light py-4 my-2">
                 <div class="container-fluid">
                     <a class="navbar-brand" href="#"><img class="img-fluid w-75" src="./images/header/group.png"
                             alt=""></a>
@@ -39,14 +56,14 @@
                     </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-                            <li class="nav-item">
-                                <a class="nav-link text-white fw-bolder " aria-current="page" href="#">Home</a>
+                            <li class="nav-item me-4">
+                                <a class="nav-link text-white fw-medium" aria-current="page" href="#">Home</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white fw-bolder " aria-current="page" href="#">About Us</a>
+                            <li class="nav-item me-4">
+                                <a class="nav-link text-white fw-medium" aria-current="page" href="#">About Us</a>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle text-white fw-bolder" href="#" id="navbarDropdown"
+                            <li class="nav-item dropdown me-4">
+                                <a class="nav-link dropdown-toggle text-white fw-medium" href="#" id="navbarDropdown"
                                     role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Services
                                 </a>
@@ -59,11 +76,11 @@
                                     <li><a class="dropdown-item" href="#">Something else here</a></li>
                                 </ul>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white fw-bolder " aria-current="page" href="#">Blog</a>
+                            <li class="nav-item me-4">
+                                <a class="nav-link text-white fw-medium" aria-current="page" href="#">Blog</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-white fw-bolder " aria-current="page" href="#">Support Page</a>
+                            <li class="nav-item me-4">
+                                <a class="nav-link text-white fw-medium" aria-current="page" href="#">Support Page</a>
                             </li>
                         </ul>
                         <form class="d-flex">
@@ -79,9 +96,9 @@
             </nav>
 
             <!--  Banner Section -->
-            <div class="banner-section pt-5">
+            <div class="banner-section pt-5 pb-3">
                 <div class="row justify-content-center align-items-center">
-                    <div class="col-sm-12 col-md-6">
+                    <div class="col-sm-12 col-md-7">
                         <div class="banner-text">
                             <h1 class="text-white fw-bolder">
                                 FIND OUT
@@ -97,8 +114,8 @@
 
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 banner-img justify-content-end align-items-end d-flex">
-                        <img class="img-fluid w-75" src="./images/banner-img/banner.png" alt="">
+                    <div class="col-12 col-md-5 banner-img justify-content-end align-items-end d-flex">
+                        <img class="img-fluid w-100" src="./images/banner-img/banner.png" alt="">
                     </div>
                 </div>
             </div>
@@ -106,19 +123,19 @@
     </header>
 
 
-
     <!-- Main Section statr -->
     <main>
         <!-- Software Solution studio -->
         <article class="solution-studio py-5">
-            <div class="container">
-                <div class="row justify-content-center align-items-center pt-5">
+            <div class="container py-5">
+                <div class="row justify-content-center align-items-center py-5">
                     <div class="col-sm-12 col-md-6">
                         <img class="img-fluid" src="./images/main/softwarezon.png" alt="">
                     </div>
                     <div class="col-sm-12 col-md-6 text-content">
-                        <h1 class="fw-bolder">We're your virtual Software Solution studio</h1>
-                        <p>Picture altering administrations for internet business organizations and stars, from item
+                        <h1 class="fw-bold mb-4">We're your virtual Software Solution studio</h1>
+                        <p class="pb-4">Picture altering administrations for internet business organizations and stars,
+                            from item
                             photographic artists to Amazon dealers to worldwide brands. <br> <br>
 
                             Since a fast item shoot can without much of a stretch transform into up to seven days of
@@ -128,16 +145,15 @@
                         <button class="rounded-pill py-3 px-4 d-flex align-items-center border-0 fw-bolder "><a href="#"
                                 class="text-decoration-none text-white">CONTACT
                                 US <i class="fa-solid fa-arrow-right-long ps-2"></i></a></button>
-
                     </div>
                 </div>
             </div>
         </article>
         <!-- How We Work section -->
-        <article class="how-work pt-5">
+        <article class="how-work py-5">
             <div class="container">
-                <h1 class="text-center pb-3">How We Work</h1>
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+                <h1 class="text-center pb-2 pt-5">How We Work</h1>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 m-0 pb-5">
                     <div class="col">
                         <div class="card h-100 border-0 text-center card-style">
                             <img class="img-fluid w-50 mx-auto" src="./images/main/Work/research.png"
@@ -174,17 +190,16 @@
                 </div>
             </div>
         </article>
-
         <!-- Explore What We Offer section -->
-
         <article class="explore-offer py-5">
-            <div class="container">
-                <div class="offer-header text-center py-5">
-                    <h1>Explore What We Offer</h1>
-                    <p>Every week, our staff personally hand-pick some of the best new <br> website themes from our
+            <div class="container py-5">
+                <div class="offer-header text-center pt-5 pb-3">
+                    <h1 class="pb-2 fw-bold">Explore What We Offer</h1>
+                    <p class="mb-1">Every week, our staff personally hand-pick some of the best new <br> website themes
+                        from our
                         collection.</p>
                 </div>
-                <div class="row row-cols-1 row-cols-md-2 g-4">
+                <div class="row row-cols-1 row-cols-md-2 g-4 m-0">
                     <div class="col">
                         <div class="card h-100 card-style p-4">
                             <div class="course-number d-flex justify-content-between px-3 align-items-center">
@@ -193,7 +208,7 @@
                                 <span>01/04</span>
                             </div>
                             <div class="card-body card-body-style">
-                                <h5 class="card-title fw-bold py-1">Ui/Ux Design</h5>
+                                <h5 class="card-title fw-semibold py-1">Ui/Ux Design</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet elit, sed do tempor incididunt ut dolore
                                     magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
@@ -201,7 +216,6 @@
                                 <button class="border-0 bg-white learn-more fw-bold "> <a href="#"
                                         class="text-decoration-none">Learn More <i
                                             class="fa-solid fa-angle-right"></i></a> </button>
-
                             </div>
                         </div>
                     </div>
@@ -213,7 +227,7 @@
                                 <span>02/04</span>
                             </div>
                             <div class="card-body card-body-style">
-                                <h5 class="card-title fw-bold py-1">Web Design & Development</h5>
+                                <h5 class="card-title fw-semibold py-1">Web Design & Development</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet elit, sed do tempor incididunt ut dolore
                                     magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
@@ -232,7 +246,7 @@
                                 <span>03/04</span>
                             </div>
                             <div class="card-body card-body-style">
-                                <h5 class="card-title fw-bold py-1">Mobile App Devlopment</h5>
+                                <h5 class="card-title fw-semibold py-1">Mobile App Devlopment</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet elit, sed do tempor incididunt ut dolore
                                     magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
@@ -251,7 +265,7 @@
                                 <span>04/04</span>
                             </div>
                             <div class="card-body card-body-style">
-                                <h5 class="card-title fw-bold py-1">Content Writing</h5>
+                                <h5 class="card-title fw-semibold py-1">Content Writing</h5>
                                 <p class="card-text">Lorem ipsum dolor sit amet elit, sed do tempor incididunt ut dolore
                                     magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
@@ -266,11 +280,13 @@
             </div>
         </article>
         <!-- Check-Out Our Products section -->
-        <article class="our-products py-5">
+        <article class="our-products pt-5">
             <div class="container">
-                <div class="header-text text-center py-5">
+                <div class="header-text text-center">
                     <h1>Check-Out Our Products</h1>
-                    <p>Every week, our staff personally hand-pick some of the best new <br> website themes from our
+                    <p class="pb-5 m-0">Every week, our staff personally hand-pick some of the best new <br> website
+                        themes
+                        from our
                         collection.
                     </p>
                 </div>
@@ -493,9 +509,9 @@
             </div>
         </article>
         <!-- Meet Our associate pertner fintechsolver section -->
-        <article class="meet-associate">
-            <div class="container">
-                <div class="row">
+        <article class="meet-associate py-5">
+            <div class="container py-5">
+                <div class="row py-5">
                     <div class="col-12 col-md-6 fintechsolver">
                         <h1 class="fw-bolder">Meet Our Associate Pertner <span>Fintechsolver</span></h1>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a
@@ -512,9 +528,8 @@
                 </div>
             </div>
         </article>
-
         <!-- Contact with us section -->
-        <article class="contact-us pb-5">
+        <article class="contact-us">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 contact-with-information pt-4">
@@ -566,9 +581,9 @@
             </div>
         </article>
         <!-- Our happy clients section -->
-        <article class="happy-client">
-            <div class="container">
-                <h1 class="py-5 my-5 fw-bold">Our happy clients</h1>
+        <article class="happy-client py-5">
+            <div class="container py-5">
+                <h1 class="fw-bold py-5">Our happy clients</h1>
                 <div class="wrapper container-full">
                     <div class="owl-carousel owl-theme img-carousel">
                         <div class="items">
@@ -765,9 +780,9 @@
                 </div>
         </article>
         <!-- Our Latest Blog section -->
-        <article class="latest-blog my-5">
-            <section class="container my-5 py-5">
-                <div class="blog-header text-center py-5">
+        <article class="latest-blog">
+            <section class="container">
+                <div class="blog-header text-center">
                     <h1>Our Latest Blog</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non <br> nisl tincidunt ut
                         elementum
@@ -943,9 +958,10 @@
     <script src="./javascript/owl.carousel.min.js"></script>
 
     <!-- Bootstrap js link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
 
     <!-- Custom JS Link -->
     <script src="./javascript/app.js"></script>
