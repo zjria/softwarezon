@@ -322,8 +322,18 @@ a.nav-link.text-white.fw-medium {
 }
 
 .contact-us {
-    background: rgba(252, 129, 47, 0.53);
-    filter: blur(200px);
+    /* background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.07) 0%, #00000021 0%), radial-gradient(81.16% 143.98% at 50% -5.92%, rgba(252, 129, 47, 0.53) 0%, rgb(0, 0, 0) 100%);
+    background-image: radial-gradient(rgba(252, 129, 47, 0.53)); */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#febf01+1,000000+49,febf01+100 */
+    /* 252, 129, 47, 0.53 */
+    /* background: linear-gradient(to right, rgba(252, 129, 47, 0.53) 0%, rgba(0, 0, 0, 0.155) 1%, rgba(252, 129, 47, 0.53) 0%); */
+
+}
+
+.contact-us {
+    background-image: url(../images/Polygon\ 11\ \(1\).png), url(../images/Polygon\ 9.png), url(../images/Polygon\ 8.png), linear-gradient(to right, rgb(129 96 0) -24%, #070404 50%, rgb(132 99 3) 170%);
+    background-repeat: no-repeat;
+    background-position: left bottom, left top, right top;
 }
 
 .mb-1.input-field input, .mb-1.input-field textarea {
