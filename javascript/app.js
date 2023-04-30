@@ -10,7 +10,7 @@ $(".img-carousel").owlCarousel({
     responsive: {
         0: {
             items: 1,
-            marge: true,
+            // marge: true,
         },
         600: { items: 1.5 },
         900: {
