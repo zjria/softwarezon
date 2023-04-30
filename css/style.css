@@ -42,6 +42,7 @@ body {
 /* Navbar section start */
 .navbar-section {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.07) 18%, #00000021 0%), radial-gradient(81.16% 143.98% at 50% -5.92%, rgb(243, 150, 50) 0%, rgb(0, 0, 0) 100%);
+    background-attachment: fixed;
 }
 
 a.nav-link.text-white.fw-medium {
@@ -62,9 +63,14 @@ a.nav-link.text-white.fw-medium {
     font-size: 18px;
 }
 
-.navbar-section button .whatsapp-img {
+/* .navbar-section button .whatsapp-img {
     font-family: 'Space Grotesk';
     background-color: #52ffa124;
+    font-size: 18px;
+} */
+.navbar-section button .whatsapp-img {
+    font-family: 'Space Grotesk';
+    background-color: #090c0a75;
     font-size: 18px;
 }
 
