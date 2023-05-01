@@ -63,15 +63,10 @@ a.nav-link.text-white.fw-medium {
     font-size: 18px;
 }
 
-/* .navbar-section button .whatsapp-img {
-    font-family: 'Space Grotesk';
-    background-color: #52ffa124;
-    font-size: 18px;
-} */
 .navbar-section button .whatsapp-img {
     font-family: 'Space Grotesk';
-    background-color: #090c0a75;
     font-size: 18px;
+    background: #52ffa142;
 }
 
 .banner-text h1 {
