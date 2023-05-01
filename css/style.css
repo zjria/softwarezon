@@ -421,7 +421,7 @@ a.nav-link.text-white.fw-medium {
 .wrapper {
     display: flex;
     align-items: center;
-    margin-right: -70px;
+    /* margin-right: -70px; */
 }
 
 .wrapper .owl-prev,
