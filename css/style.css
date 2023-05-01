@@ -25,23 +25,36 @@ body {
 /* Primary Style End */
 
 /* Header Top Section */
-.header-top-section .mobile-phone-number {
+p.m-0.text-uppercase.fw-medium.pe-2.me-1 {
+    font-size: 14px;
+    line-height: 24px;
     color: #0C0B0B;
 }
 
 .header-top-section .mobile-phone-number a {
     color: #0C0B0B;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.mobile-phone-number span hr {
+    margin: 0rem 0;
+    color: #0C0B0B;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
 }
 
 .top-header .closed-icons i {
-    padding: 5px;
+    padding: 4px 5px;
     background: #56565c26;
     border-radius: 100%;
 }
 
 /* Navbar section start */
 .navbar-section {
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.07) 18%, #00000021 0%), radial-gradient(81.16% 143.98% at 50% -5.92%, rgb(243, 150, 50) 0%, rgb(0, 0, 0) 100%);
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.07) 24%, #00000021 0%), radial-gradient(81.16% 143.98% at 50% -5.92%, rgb(243, 150, 50) 0%, rgb(0, 0, 0) 100%);
     background-attachment: fixed;
 }
 
@@ -61,17 +74,20 @@ a.nav-link.text-white.fw-medium {
 .btn-whatsapp a {
     color: #52FFA1;
     font-size: 18px;
+    line-height: 24px;
 }
 
 .navbar-section button .whatsapp-img {
     font-family: 'Space Grotesk';
     font-size: 18px;
     background: #52ffa142;
+    padding: 6px;
 }
 
 .banner-text h1 {
-    line-height: 70px;
     font-size: 56px;
+    line-height: 70px;
+    letter-spacing: -1px;
 }
 
 .banner-text p {
@@ -421,7 +437,6 @@ a.nav-link.text-white.fw-medium {
 .wrapper {
     display: flex;
     align-items: center;
-    /* margin-right: -70px; */
 }
 
 .wrapper .owl-prev,
