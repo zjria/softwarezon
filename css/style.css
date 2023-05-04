@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
 
 
-/* Primary Style start */
+/* =================Primary Style start==================== */
 *, *::after, *::before {
     box-sizing: inherit;
 }
@@ -17,14 +17,22 @@ body {
     font-family: 'Rubik';
 }
 
-.banner-text button, .solution-studio button, .our-products button, .meet-associate button, .send-button button, .latest-blog .footer-btn, .form-action button, .email-field .update-news button {
+.banner-text button, .solution-studio button, .our-products .view-item, .meet-associate button, .send-button button, .latest-blog .footer-btn, .form-action button, .email-field .update-news button {
     background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
     border-radius: 10000px;
 }
 
-/* Primary Style End */
+.banner-text button a, .solution-studio button a, .our-products .view-item a, .meet-associate button a, .send-button button a, .latest-blog .footer-btn a, .form-action button a, .email-field .update-news button a {
+    padding: 25px 32px;
+}
 
-/* Header Top Section */
+.banner-text button i, .solution-studio button i, .our-products .view-item i, .meet-associate button i, .send-button button i {
+    padding-left: 13px;
+}
+
+/* ===================Primary Style End================== */
+
+/* ====================Header Top Section================= */
 p.m-0.text-uppercase.fw-medium.pe-2.me-1 {
     font-size: 14px;
     line-height: 24px;
@@ -52,7 +60,7 @@ p.m-0.text-uppercase.fw-medium.pe-2.me-1 {
     border-radius: 100%;
 }
 
-/* Navbar section start */
+/* ======================Navbar section start================== */
 .navbar-section {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.07) 24%, #00000021 0%), radial-gradient(81.16% 143.98% at 50% -5.92%, rgb(243, 150, 50) 0%, rgb(0, 0, 0) 100%);
     background-attachment: fixed;
@@ -82,6 +90,7 @@ a.nav-link.text-white.fw-medium {
     font-size: 18px;
     background: #52ffa142;
     padding: 6px;
+    margin-right: 7px;
 }
 
 .banner-text h1 {
@@ -95,14 +104,27 @@ a.nav-link.text-white.fw-medium {
     line-height: 24px;
 }
 
+a.text-decoration-none.text-white {
+    font-size: 18px;
+    line-height: 24px;
+}
+
 .navbar-light .navbar-toggler {
     color: #f9fafb;
     border-color: #f8f9fa;
 }
 
-/* We're your virtual Software Solution studio */
+/* ===================We're your virtual Software Solution studio================== */
 .solution-studio, .our-products, .explore-offer, .meet-associate {
     background: #F5F5F5;
+}
+
+article.solution-studio.py-5 {
+    margin-top: 7px;
+}
+
+.col-sm-12.col-md-6.text-content {
+    padding-left: 57px;
 }
 
 .solution-studio h1 {
@@ -118,9 +140,17 @@ a.nav-link.text-white.fw-medium {
     color: #626262;
 }
 
-/* how we work section */
+/* ====================how we work section==================== */
 .how-work {
     background: rgba(154, 154, 154, 0.03);
+}
+
+h1.text-center.pb-2.pt-5 {
+    margin-top: -6px;
+}
+
+.row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-4.m-0 {
+    padding-bottom: 34px;
 }
 
 .how-work .card-style {
@@ -155,11 +185,34 @@ a.nav-link.text-white.fw-medium {
     color: #626262;
 }
 
-/* Explore What We Offer section */
+/* ==================== Explore What We Offer section==================== */
 
 .explore-offer .card-style .course-number img {
     height: 95px;
     width: 95px;
+}
+
+.offer-header.text-center.pt-5.pb-3 {
+    margin-top: 44px;
+    margin-bottom: 2px;
+}
+
+.offer-header h1.fw-bold {
+    padding-bottom: 7px;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    color: #1A1717;
+}
+
+.card-body.card-body-style {
+    padding-top: 12px;
+}
+
+.offer-header p.mb-1 {
+    font-size: 20px;
+    line-height: 29px;
+    color: #626262;
 }
 
 .explore-offer .card-style .course-number span {
@@ -170,16 +223,30 @@ a.nav-link.text-white.fw-medium {
 }
 
 .explore-offer .card-style .card-body-style h5 {
-    font-size: 48px;
-    line-height: 52px;
-    letter-spacing: -0.01em;
-    color: #1A1717;
+    font-size: 38px;
+    line-height: 45px;
+    color: #0D0E16;
+    margin-bottom: 23px;
+}
+
+.card-footer.border-0.bg-white {
+    margin-top: 6px;
 }
 
 .explore-offer .card-style .card-body-style p {
     font-size: 18px;
     line-height: 30px;
     color: #777777;
+}
+
+.col.right-part {
+    padding-right: 22px;
+    margin-bottom: 20px;
+}
+
+.col.left-part {
+    padding-left: 22px;
+    margin-bottom: 20px;
 }
 
 .explore-offer .card-style .learn-more a {
@@ -190,15 +257,26 @@ a.nav-link.text-white.fw-medium {
     color: #000;
 }
 
-.explore-offer .card-style:hover .learn-more {
+button span hr {
+    height: 2px;
+    visibility: hidden;
+}
+
+hr:not([size]) {
+    height: 2px;
+    opacity: 0.5;
+}
+
+.explore-offer .card-style:hover .learn-more hr {
     color: #F7A421;
-    text-decoration: underline;
+    visibility: visible;
 }
 
 .explore-offer .card-style:hover .learn-more a {
     color: #F7A421;
-    text-decoration: underline;
+    visibility: visible;
 }
+
 
 .explore-offer .card-style {
     transition: 2s;
@@ -209,7 +287,7 @@ a.nav-link.text-white.fw-medium {
     transition-timing-function: ease-in-out;
 }
 
-/* Check-Out Our Products section */
+/* ====================Check-Out Our Products section==================== */
 
 .products-revew {
     position: relative;
@@ -235,6 +313,21 @@ a.nav-link.text-white.fw-medium {
     text-align: center;
 }
 
+.row-section {
+    margin: 28px 0px;
+}
+
+.header-text p {
+    font-size: 20px;
+    line-height: 29px;
+    color: #626262;
+    padding-top: 7px;
+}
+
+.row-section .col {
+    padding: 22.5px 14px;
+}
+
 .products-revew:hover img {
     opacity: 0.1;
 }
@@ -258,6 +351,7 @@ a.nav-link.text-white.fw-medium {
 
 .products-revew .hover-bg button a {
     color: #fff;
+    padding: 20px 21px;
 }
 
 .products-revew:hover .product-button-eye {
@@ -266,8 +360,13 @@ a.nav-link.text-white.fw-medium {
     border: 1px solid #F39022;
 }
 
+.products-revew:hover button {
+    margin: 4px;
+}
+
 .products-revew:hover .product-button-eye a {
     color: #F39022;
+    padding: 20px 21px;
 }
 
 .products-revew:hover .product-button-cart {
@@ -308,7 +407,7 @@ a.nav-link.text-white.fw-medium {
     color: black;
 }
 
-/* Meet Our associate pertner fintechsolver section */
+/* ====================Meet Our associate pertner fintechsolver section==================== */
 .meet-associate h1 {
     font-size: 48px;
     line-height: 57px;
@@ -329,7 +428,7 @@ a.nav-link.text-white.fw-medium {
     height: 494px;
 }
 
-/* Contact with us section */
+/* ====================Contact with us section==================== */
 
 .some-socail-icons li a i {
     padding: 10px;
@@ -390,7 +489,7 @@ a.nav-link.text-white.fw-medium {
     border-radius: 8px;
 }
 
-/* Our happy clients section */
+/* ====================Our happy clients section==================== */
 .happy-client h1 {
     color: #000;
     font-size: 48px;
@@ -481,7 +580,7 @@ a.nav-link.text-white.fw-medium {
     padding: 6px 12px;
 }
 
-/* Latest Blog Section */
+/* ====================Latest Blog Section==================== */
 
 .animation-card {
     background-color: transparent;
@@ -525,7 +624,7 @@ a.nav-link.text-white.fw-medium {
     color: #56565C;
 }
 
-/* Footer Section style section */
+/* ====================Footer Section style section==================== */
 /* Get your updated news section */
 .updated-information {
     background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
@@ -760,6 +859,20 @@ article.updated-news {
     article.updated-news {
         padding: 0;
     }
+
+    .col.right-part {
+        padding-right: 12px;
+        margin-bottom: 20px;
+    }
+
+    .col.left-part {
+        padding-left: 12px;
+        margin-bottom: 20px;
+    }
+
+    .row.row-cols-1.row-cols-md-2.row-cols-lg-3.pb-5.g-0 .col {
+        padding: 10.5px 10px;
+    }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -856,6 +969,21 @@ article.updated-news {
     article.updated-news {
         padding: 0;
     }
+
+    .col.right-part {
+        padding-right: 12px;
+        margin-bottom: 20px;
+    }
+
+    .col.left-part {
+        padding-left: 12px;
+        margin-bottom: 20px;
+    }
+
+    .row.row-cols-1.row-cols-md-2.row-cols-lg-3.pb-5.g-0 .col {
+        padding: 10.5px 10px;
+    }
+
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -906,5 +1034,19 @@ article.updated-news {
 
     article.updated-news {
         padding: 0;
+    }
+
+    .col.right-part {
+        padding-right: 12px;
+        margin-bottom: 20px;
+    }
+
+    .col.left-part {
+        padding-left: 12px;
+        margin-bottom: 20px;
+    }
+
+    .row.row-cols-1.row-cols-md-2.row-cols-lg-3.pb-5.g-0 .col {
+        padding: 10.5px 10px;
     }
 }
