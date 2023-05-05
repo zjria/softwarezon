@@ -6,7 +6,7 @@ $(".img-carousel").owlCarousel({
     autoplay: true,
     autoplayTimeout: 4000,
     autoplayHoverPause: true,
-    navText: ["<b>⟵</b>", "<b>⟶</b>"],
+    navText: ["<b><i class='bi bi-arrow-left'></i></b>", "<b><i class='bi bi-arrow-right'></i></b>"],
     responsive: {
         0: {
             items: 1,
