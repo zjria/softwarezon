@@ -663,6 +663,7 @@ p.card-text {
 /* ====================Latest Blog Section==================== */
 article.latest-blog {
     margin-top: 32px;
+    margin-bottom: 140px;
 }
 
 .card-body h4 {
@@ -756,92 +757,6 @@ article.latest-blog {
 
 /* ====================Footer Section style section==================== */
 /* Get your updated news section */
-
-.updated-information {
-    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
-    border-radius: 30px;
-    margin: auto;
-    padding: 85px 64px;
-}
-
-.updated-information h1 {
-    font-size: 48px;
-    line-height: 64px;
-    color: #FFFFFF;
-}
-
-article.updated-news {
-    padding: 0 80px;
-}
-
-.form-box {
-    padding: 10px 20px;
-    background: white;
-    color: #AFAFAE;
-}
-
-.form-box input {
-    outline: none;
-    border: none;
-    border-radius: 50%;
-}
-
-input:-internal-autofill-selected {
-    appearance: menulist-button;
-    background-image: none !important;
-    background-color: -internal-light-dark(rgb(255, 255, 255), rgb(255, 255, 255)) !important;
-    color: fieldtext !important;
-}
-
-.form-box input {
-    outline: none;
-    border: none;
-    border-radius: 50%;
-    background: white;
-    color: #1b8ff6;
-}
-
-.form-box input:hover {
-    outline: none;
-    border: none;
-    border-radius: 50%;
-    background: white;
-    color: #1b8ff6;
-}
-
-.email-input-group {
-    background: white;
-    padding: 6px 20px;
-    border-radius: 20px;
-}
-
-.email-input-group button {
-    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
-    border-radius: 1000px;
-}
-
-
-.form-control:focus {
-    border-color: inherit;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.form-control button:focus {
-    border-color: inherit;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-
-
-
-
-
-
-
-
-
 .footer-area {
     background-image: url(../images/footer.png);
     position: relative;
@@ -850,19 +765,65 @@ input:-internal-autofill-selected {
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: 100% 100%;
-    margin-top: 140px;
 }
 
 article.updated-news {
-    top: 0px;
-    justify-content: space-between;
-    align-items: center;
-    display: flex;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.updated-information {
+    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
+    padding: 85px 64px;
+    border-radius: 30px;
+}
+
+.content-information h1 {
+    font-size: 48px;
+    line-height: 64px;
+    margin-bottom: 16px;
+}
+
+.content-information p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+button#button-addon2 {
+    padding: 8px 40px;
+}
+
+.email-input-group {
+    background: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.email-input-group button {
+    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
+    border-radius: 1000px;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.row.footer-align {
+    margin-top: 120px;
+}
+
+.form-control button:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 .footer-content h5 {
     font-size: 20px;
     line-height: 24px;
+    margin-bottom: 40px;
 }
 
 .footer-content ul li a, .footer-content p {
@@ -889,8 +850,13 @@ article.updated-news {
 
 .footer-bottom hr {
     border: 1px solid #606060;
+    margin-top: 80px;
+    margin-bottom: 30px;
 }
 
+.footer-content ul li {
+    margin-bottom: 24px;
+}
 
 
 /* ....................................................
@@ -976,20 +942,13 @@ article.updated-news {
     .copy-right p {
         justify-content: center;
         text-align: center;
+        margin-top: 20px;
     }
 
-    article.updated-news {
-        position: relative;
-        top: -30px;
-    }
 
     .header-top-section .mobile-phone-number {
         flex-direction: column;
         align-items: center;
-    }
-
-    article.updated-news {
-        padding: 0;
     }
 
     .col.right-part {
@@ -1008,6 +967,16 @@ article.updated-news {
 
     .carousel-items-style {
         margin-right: 15px;
+    }
+
+    .updated-information {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    article.updated-news {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
 
@@ -1090,6 +1059,7 @@ article.updated-news {
     .copy-right p {
         justify-content: center;
         text-align: center;
+        margin-top: 20px;
     }
 
     article.updated-news {
@@ -1128,6 +1098,16 @@ article.updated-news {
         top: -65px;
         position: absolute;
         right: 0px;
+    }
+
+    .updated-information {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    article.updated-news {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 
 }
