@@ -3,7 +3,7 @@ $(".img-carousel").owlCarousel({
     loop: true,
     nav: true,
     dots: false,
-    autoplay: true,
+    autoplay: false,
     autoplayTimeout: 4000,
     autoplayHoverPause: true,
     navText: ["<b><i class='bi bi-arrow-left'></i></b>", "<b><i class='bi bi-arrow-right'></i></b>"],
