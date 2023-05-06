@@ -125,8 +125,12 @@ article.solution-studio.py-5 {
     margin-top: 7px;
 }
 
-.col-sm-12.col-md-6.text-content {
-    padding-left: 57px;
+.solution-studio-right-side {
+    padding-left: 35px;
+}
+
+.solution-studio-left-side {
+    padding-right: 35px;
 }
 
 .solution-studio h1 {
@@ -813,7 +817,7 @@ article.updated-news {
 
 .content-information h1 {
     font-size: 48px;
-    line-height: 64px;
+    line-height: 50px;
     margin-bottom: 16px;
 }
 
@@ -1059,6 +1063,7 @@ button#button-addon2 {
         font-size: 33px;
         margin-bottom: 16px;
         text-align: center;
+        line-height: 50px;
     }
 
     .content-information p {
@@ -1251,6 +1256,15 @@ button#button-addon2 {
 
     .card-body-style .title-card {
         font-size: 18px;
+    }
+
+    .offer-header p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .explore-offer .card-style {
+        padding: 5px;
     }
 }
 
