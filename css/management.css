@@ -1,0 +1,790 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+
+/* =================Primary Style start==================== */
+*, *::after, *::before {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik';
+}
+
+.banner-text button, .solution-studio button, .our-products .view-item, .meet-associate button, .send-button button, .latest-blog .footer-btn, .form-action button, .email-field .update-news button {
+    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
+    border-radius: 10000px;
+}
+
+.banner-text button a, .solution-studio button a, .our-products .view-item a, .meet-associate button a, .send-button button a, .latest-blog .footer-btn a, .email-field .update-news button a {
+    padding: 25px 32px;
+}
+
+.banner-text button i, .solution-studio button i, .our-products .view-item i, .meet-associate button i, .send-button button i {
+    padding-left: 13px;
+}
+
+/* ===================Primary Style End================== */
+
+/* ====================Header Top Section================= */
+p.m-0.text-uppercase.fw-medium.pe-2.me-1 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #0C0B0B;
+}
+
+.header-top-section .mobile-phone-number a {
+    color: #0C0B0B;
+    font-size: 14px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.mobile-phone-number span hr {
+    margin: 0rem 0;
+    color: #0C0B0B;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: .25;
+}
+
+.top-header .closed-icons i {
+    padding: 4px 5px;
+    background: #56565c26;
+    border-radius: 100%;
+}
+
+/* ======================Navbar section start================== */
+.navbar-section {
+    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.07) 24%, #00000021 0%), radial-gradient(81.16% 143.98% at 50% -5.92%, rgb(243, 150, 50) 0%, rgb(0, 0, 0) 100%);
+    background-attachment: fixed;
+}
+
+a.nav-link.text-white.fw-medium {
+    font-size: 18px;
+}
+
+.dropdown-icon a i {
+    font-size: 15px;
+}
+
+.btn-whatsapp {
+    font-family: 'Space Grotesk';
+    color: #52FFA1;
+    background: none;
+    border: 1px solid #52FFA1;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.btn-whatsapp a {
+    color: #52FFA1;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.navbar-section button .whatsapp-img {
+    font-family: 'Space Grotesk';
+    font-size: 18px;
+    background: #52ffa142;
+    padding: 6px;
+    margin-right: 7px;
+}
+
+/* =====================Banner Section===================== */
+
+article.banner-text-part h1 {
+    margin-top: 120px;
+    font-size: 48px;
+    line-height: 52px;
+    margin-bottom: 24px;
+}
+
+article.banner-text-part {
+    padding-bottom: 80px;
+}
+
+.banner-text-part button {
+    border: none;
+    padding: 12px 15px;
+    background: #69B2E6;
+    border-radius: 10000px;
+    margin-bottom: 30px;
+}
+
+.banner-text-part button a {
+    font-size: 15px;
+    color: white;
+}
+
+.banner-text-part a {
+    font-size: 14px;
+}
+
+/* ====================main section and Contact buttons section==================== */
+
+main.main-bg {
+    background: #F5F5F5;
+}
+
+article.contact-buttons-fields {
+    padding-top: 70px;
+}
+
+article.contact-buttons-fields button {
+    background: #F5F5F5;
+    border-radius: 10000px;
+    padding: 18px 24px;
+    border: 1px solid #F39022;
+}
+
+article.contact-buttons-fields button a {
+    color: #F39022;
+    font-size: 16px;
+}
+
+article.contact-buttons-fields button:hover a {
+    color: #FFFFFF;
+}
+
+article.contact-buttons-fields button:hover {
+    background: #F39022;
+    border: 1px solid #ffffff;
+}
+
+article.contact-buttons-fields button {
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+article.contact-buttons-fields .button-group {
+    text-align: center;
+}
+
+/* ============================ life support information section======================== */
+.support-information button a img {
+    width: 16px;
+    margin-left: 9px;
+}
+
+.life-support .card-info {
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 23px 30px 28px;
+}
+
+.life-support {
+    margin-top: 35px;
+}
+
+.card-border-top-0 {
+    border-top: 0 !important;
+    border-radius: 10px;
+    background: #FDFDFD;
+}
+
+.life-support .padding-right {
+    padding-right: 17px;
+}
+
+.life-support .padding-left {
+    padding-left: 17px;
+}
+
+.support-shear.d-flex {
+    align-items: center;
+}
+
+.support-shear ul li {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1000px;
+    margin: 0 7px;
+}
+
+
+.support-shear h6 {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    color: rgba(26, 23, 23, 0.6);
+    opacity: 0.6;
+}
+
+.support-shear ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: rgba(26, 23, 23, 0.4);
+}
+
+.support-shear ul, .support-shear h6 {
+    margin-bottom: 0;
+    padding-left: 9px;
+}
+
+.support-information button {
+    padding: 25px 33px;
+    border: none;
+    background: #7A9C2B;
+    border-radius: 10000px;
+}
+
+.support-information button a {
+    font-size: 20px;
+    line-height: 52px;
+}
+
+.padding-left .regular-license {
+    background: #FDFDFD;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+}
+
+.regular-license hr {
+    height: 1px;
+    opacity: 0.1;
+    margin-bottom: 0px;
+}
+
+.license-card-info {
+    padding: 24px 25px 16px 30px;
+    align-items: center;
+}
+
+.license-card-info h5 {
+    font-size: 24px;
+    color: #474545;
+}
+
+.license-list ul {
+    margin-top: 25px;
+}
+
+.license-card-info h5.price {
+    font-size: 24px;
+    color: #0FAAB8;
+}
+
+.license-card-info h5 i {
+    color: #474545;
+}
+
+.license-list ul li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.license-list ul li i {
+    margin-right: 10px;
+    border: 1px solid #10CA2E;
+    padding: 7px 9px;
+    border-radius: 100%;
+    color: #10CA2E;
+}
+
+.total-information .total-body {
+    background: #474545;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.total-information .total-body h5 {
+    font-size: 24px;
+}
+
+img.card-img-top.img-fluid.w-100 {
+    height: 440px;
+}
+
+.regular-license .add-button a {
+    width: 100%;
+    padding: 23px 0px;
+    font-size: 24px;
+}
+
+.regular-license .add-button a:focus {
+    border: none;
+}
+
+.add-button {
+    margin: 34px 28px 40px 28px;
+    background: #F39022;
+    border: 1px solid #F39022;
+    border-radius: 150px;
+}
+
+.add-button:focus {
+    margin: 34px 28px 40px 28px;
+    background: #F39022;
+    border: 1px solid #F39022;
+    border-radius: 150px;
+}
+
+.btn:focus {
+    box-shadow: none;
+}
+
+/* ====================Check-Out Our Products section==================== */
+
+.products-revew {
+    position: relative;
+}
+
+.our-products h1 {
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: -0.01em;
+    color: #1A1717;
+    margin-top: 44px;
+}
+
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: -50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.row-section {
+    margin: 28px 0px;
+}
+
+.header-text p {
+    font-size: 20px;
+    line-height: 29px;
+    color: #626262;
+    padding-top: 7px;
+}
+
+.row-section .col {
+    padding: 22.5px 14px;
+}
+
+.products-revew:hover img {
+    opacity: 0.1;
+}
+
+.products-revew:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    background-color: #04AA6D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+
+.products-revew .product-button-cart img {
+    background: none;
+    color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+}
+
+.products-revew .hover-bg button a {
+    color: #fff;
+    padding: 20px 21px;
+}
+
+.products-revew:hover .product-button-eye {
+    background: white;
+    color: #F39022;
+    border: 1px solid #F39022;
+}
+
+.products-revew:hover button {
+    margin: 4px;
+}
+
+.products-revew:hover .product-button-eye a {
+    color: #F39022;
+    padding: 20px 21px;
+}
+
+.products-revew:hover .product-button-cart {
+    background: none;
+    color: #F5F5F5;
+    border: 1px solid #F5F5F5;
+}
+
+.products-revew:hover .hover-bg {
+    position: relative;
+    border: 1px solid white;
+    border-radius: .25rem;
+    background: rgba(35, 30, 30, 0.26);
+    backdrop-filter: blur(5.5px);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.card-body-style .title-card {
+    font-size: 20px;
+}
+
+.script-name .course {
+    background: #69B2E6;
+    border-radius: 10000px;
+    color: white;
+}
+
+.script-name .dollar {
+    font-size: 20px;
+}
+
+.card-body-style .star {
+    color: #40D986;
+    border-radius: 1px;
+}
+
+.card-body-style .point {
+    color: black;
+}
+
+
+/* ====================Footer Section style section==================== */
+/* Get your updated news section */
+.footer-area {
+    background-image: url(../images/footer.png);
+    background-position: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: 100% 100%;
+}
+
+article.updated-news {
+    padding-left: 75px;
+    padding-right: 75px;
+    top: -110px;
+    position: relative;
+}
+
+.updated-information {
+    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
+    padding: 85px 64px;
+    border-radius: 30px;
+    top: -115px;
+}
+
+.content-information h1 {
+    font-size: 48px;
+    line-height: 50px;
+    margin-bottom: 16px;
+}
+
+.content-information p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+button#button-addon2 {
+    padding: 8px 20px;
+}
+
+.email-input-group {
+    background: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.email-input-group button {
+    background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
+    border-radius: 1000px;
+}
+
+.form-control:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.row.footer-align {
+    margin-top: 120px;
+}
+
+.form-control button:focus {
+    border-color: inherit;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.footer-content h5 {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+.footer-content ul li a, .footer-content p {
+    font-size: 18px;
+    line-height: 21px;
+    line-height: 30px;
+}
+
+.footer-content .socail-icons li a {
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    margin: 0px 5px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.footer-content .socail-icons li a i {
+    color: white;
+}
+
+.footer-bottom hr {
+    border: 1px solid #606060;
+    margin-top: 80px;
+    margin-bottom: 30px;
+}
+
+.footer-content ul li {
+    margin-bottom: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ....................................................
+                Responsive web degain section
+...................................................... */
+
+@media screen and (max-width: 576px) {
+    div#navbarSupportedContent {
+        text-align: center;
+    }
+
+    form.d-flex {
+        justify-content: center;
+    }
+
+    button.btn-whatsapp.rounded-pill.py-1.px-3.d-flex.align-items-center.fw-bold {
+        margin: auto;
+    }
+
+    article.banner-text-part h1 {
+        margin-top: 60px;
+        font-size: 30px;
+        line-height: 40px;
+        margin-bottom: 24px;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-text button {
+        margin: auto;
+    }
+
+    .banner-img img {
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .banner-text h1 {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    .banner-text p {
+        font-size: 14px;
+    }
+
+    article.banner-text-part {
+        text-align: center;
+    }
+
+    .footer-area .footer-align {
+        text-align: center;
+    }
+
+    .header-top-section .mobile-phone-number {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-bottom hr {
+        margin-top: 16px;
+        margin-bottom: 26px;
+    }
+
+    .our-products h1 {
+        font-size: 25px;
+        line-height: 52px;
+        letter-spacing: -0.01em;
+        color: #1A1717;
+        margin-top: -24px;
+        margin-bottom: 0px;
+    }
+
+    .header-text p {
+        font-size: 16px;
+        /* line-height: 29px; */
+        color: #626262;
+        padding-top: 7px;
+    }
+
+    .products-revew .hover-bg button a {
+        color: #fff;
+        padding: 10px 22px;
+        font-size: 12px;
+    }
+
+    .products-revew:hover .product-button-eye a {
+        color: #F39022;
+        padding: 8px 16px;
+    }
+
+    .footer-content ul li {
+        margin-bottom: 12px;
+    }
+
+    .footer-content ul li a, .footer-content p {
+        font-size: 16px;
+        line-height: 21px;
+        line-height: 20px;
+    }
+
+    .banner-text button a, .solution-studio button a, .our-products .view-item a, .meet-associate button a, .send-button button a, .latest-blog .footer-btn a, .email-field .update-news button a {
+        padding: 12px 24px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+    div#navbarSupportedContent {
+        text-align: center;
+    }
+
+    form.d-flex {
+        justify-content: center;
+    }
+
+    button.btn-whatsapp.rounded-pill.py-1.px-3.d-flex.align-items-center.fw-bold {
+        margin: auto;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-text button {
+        margin: auto;
+    }
+
+    .banner-img img {
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    .banner-text h1 {
+        font-size: 29px;
+        line-height: 50px;
+    }
+
+    .banner-text button, .solution-studio button {
+        margin: auto;
+    }
+
+    .footer-area .footer-align {
+        text-align: center;
+    }
+
+    .banner-text button a, .solution-studio button a, .our-products .view-item a, .meet-associate button a, .send-button button a, .latest-blog .footer-btn a, .email-field .update-news button a {
+        padding: 12px 24px;
+    }
+
+    .our-products h1 {
+        font-size: 30px;
+        margin-top: -5px;
+    }
+
+    .header-text p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .card-body-style .title-card {
+        font-size: 18px;
+    }
+
+    .footer-bottom hr {
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    div#navbarSupportedContent {
+        text-align: center;
+    }
+
+
+    .banner-text h1 {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .banner-section .banner-img .w-75 {
+        width: 100% !important;
+    }
+
+    button.btn-whatsapp.rounded-pill.py-1.px-3.d-flex.align-items-center.fw-bold {
+        margin: auto;
+    }
+
+    .footer-area .footer-align {
+        text-align: center;
+    }
+
+    .banner-text button a, .solution-studio button a, .our-products .view-item a, .meet-associate button a, .send-button button a, .latest-blog .footer-btn a, .email-field .update-news button a {
+        padding: 15px 16px;
+    }
+
+    .our-products h1 {
+        font-size: 35px;
+        margin-top: -5px;
+    }
+
+}
