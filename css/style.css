@@ -68,6 +68,12 @@ p.m-0.text-uppercase.fw-medium.pe-2.me-1 {
     background-attachment: fixed;
 }
 
+.container-fluid.pt-3 {
+    align-items: center;
+    display: flex;
+    /* align-content: center; */
+}
+
 a.nav-link.text-white.fw-medium {
     font-size: 18px;
 }
@@ -123,7 +129,8 @@ a.text-decoration-none.text-white {
 
 .navbar-light .navbar-toggler {
     color: #f9fafb;
-    border-color: #f8f9fa;
+    border-color: rgb(243, 150, 50);
+    background: white;
 }
 
 /* ===================We're your virtual Software Solution studio================== */
@@ -837,7 +844,7 @@ article.updated-news {
 }
 
 button#button-addon2 {
-    padding: 8px 20px;
+    padding: 8px 25px;
 }
 
 .email-input-group {
