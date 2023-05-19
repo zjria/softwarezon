@@ -24,21 +24,13 @@ body {
     border-radius: 10000px;
 }
 
-.banner-text button a, .solution-studio button a, .our-products .view-item a, .meet-associate button a, .send-button button a, .latest-blog .footer-btn a, .email-field .update-news button a {
-    padding: 25px 32px;
-}
-
-.banner-text button i, .solution-studio button i, .our-products .view-item i, .meet-associate button i, .send-button button i {
-    padding-left: 13px;
-}
 
 /* ===================Primary Style End================== */
 
 /* ====================Header Top Section================= */
-p.m-0.text-uppercase.fw-medium.pe-2.me-1 {
-    font-size: 14px;
-    line-height: 24px;
-    color: #0C0B0B;
+.header-section .header-logo a img {
+    height: 64px;
+    width: 55.00044631958008px;
 }
 
 .header-top-section .mobile-phone-number a {
@@ -66,12 +58,6 @@ p.m-0.text-uppercase.fw-medium.pe-2.me-1 {
 .navbar-section {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.07) 24%, #00000021 0%), radial-gradient(81.16% 143.98% at 50% -5.92%, rgb(243, 150, 50) 0%, rgb(0, 0, 0) 100%);
     background-attachment: fixed;
-}
-
-.container-fluid.pt-3 {
-    align-items: center;
-    display: flex;
-    /* align-content: center; */
 }
 
 a.nav-link.text-white.fw-medium {
@@ -176,19 +162,12 @@ article.solution-studio.py-5 {
     color: #1A1717;
 }
 
-h1.text-center.pb-2.pt-5 {
-    margin-top: -6px;
-}
-
 .owl-theme .owl-nav {
     top: -90px;
     position: absolute;
     right: 0px;
 }
 
-.row.row-cols-1.row-cols-sm-2.row-cols-md-3.g-4.m-0 {
-    padding-bottom: 34px;
-}
 
 .how-work .card-style {
     background: rgb(154 154 154 / 0%);
@@ -227,11 +206,6 @@ h1.text-center.pb-2.pt-5 {
 .explore-offer .card-style .course-number img {
     height: 95px;
     width: 95px;
-}
-
-.offer-header.text-center.pt-5.pb-3 {
-    margin-top: 44px;
-    margin-bottom: 2px;
 }
 
 .offer-header p {
@@ -1027,10 +1001,6 @@ button#button-addon2 {
         text-align: center;
     }
 
-    ul.p-0.d-flex.socail-icons {
-        justify-content: center;
-    }
-
     .imges-text.d-flex.align-items-center {
         justify-content: center;
     }
@@ -1055,10 +1025,6 @@ button#button-addon2 {
     .col.left-part {
         padding-left: 12px;
         margin-bottom: 20px;
-    }
-
-    .row.row-cols-1.row-cols-md-2.row-cols-lg-3.pb-5.g-0 .col {
-        padding: 10.5px 10px;
     }
 
     .carousel-items-style {
@@ -1180,19 +1146,7 @@ button#button-addon2 {
         padding: 15px 16px;
     }
 
-    .col-md-6.contact-with-information.pt-4 img {
-        text-align: center;
-        justify-content: center;
-        margin: auto;
-        display: flex;
-    }
-
     .contact-with-information h1 {
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .col-md-6.contact-with-field.pt-5 h1 {
         font-size: 25px;
         text-align: center;
     }
@@ -1353,10 +1307,6 @@ button#button-addon2 {
         text-align: center;
     }
 
-    ul.p-0.d-flex.socail-icons {
-        justify-content: center;
-    }
-
     .imges-text.d-flex.align-items-center {
         justify-content: center;
     }
@@ -1389,10 +1339,6 @@ button#button-addon2 {
     .col.left-part {
         padding-left: 12px;
         margin-bottom: 20px;
-    }
-
-    .row.row-cols-1.row-cols-md-2.row-cols-lg-3.pb-5.g-0 .col {
-        padding: 10.5px 10px;
     }
 
     .carousel-items-style {
@@ -1605,10 +1551,6 @@ button#button-addon2 {
         text-align: center;
     }
 
-    ul.p-0.d-flex.socail-icons {
-        justify-content: center;
-    }
-
     article.updated-news {
         padding: 0;
     }
@@ -1621,10 +1563,6 @@ button#button-addon2 {
     .col.left-part {
         padding-left: 12px;
         margin-bottom: 20px;
-    }
-
-    .row.row-cols-1.row-cols-md-2.row-cols-lg-3.pb-5.g-0 .col {
-        padding: 10.5px 10px;
     }
 
     .carousel-items-style {
