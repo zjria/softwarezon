@@ -228,6 +228,7 @@ article.solution-studio.py-5 {
 .how-work {
     background: rgba(154, 154, 154, 0.03);
     padding-top: 90px;
+    padding-bottom: 81px;
 }
 
 .how-work h1 {
@@ -236,6 +237,11 @@ article.solution-studio.py-5 {
     text-align: center;
     letter-spacing: -0.01em;
     color: #1A1717;
+}
+
+.card-style img {
+    height: 184px;
+    width: 184px;
 }
 
 .owl-theme .owl-nav {
@@ -253,7 +259,7 @@ article.solution-studio.py-5 {
 .how-work .card-style img {
     background: #fff;
     padding: 15px;
-    border-radius: 100%;
+    border-radius: 45%;
     margin-top: 10px;
     transition: transform 1s;
 }
@@ -268,6 +274,8 @@ article.solution-studio.py-5 {
     font-size: 36px;
     line-height: 29px;
     color: #191717;
+    margin-top: 8px;
+    margin-bottom: 25px;
 }
 
 .how-work .card-style p {
@@ -276,6 +284,10 @@ article.solution-studio.py-5 {
     text-align: center;
     color: #626262;
 }
+
+/* .work-field {
+    padding-bottom: 82px;
+} */
 
 /* ==================== Explore What We Offer section==================== */
 
@@ -1122,6 +1134,10 @@ button#button-addon2 {
     .solution-studio button {
         margin: auto;
         padding: 15.5px 21px 15.5px 20px;
+    }
+
+    .how-work {
+        padding-top: 50px;
     }
 }
 
