@@ -1,8 +1,9 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
 
+/* bootstrap icons */
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
 
 
@@ -24,13 +25,30 @@ body {
     border-radius: 10000px;
 }
 
-
 /* ===================Primary Style End================== */
 
 /* ====================Header Top Section================= */
-.header-section .header-logo a img {
+.mobile-phone-number.d-flex.mx-auto {
+    margin: 8px 0px;
+    align-items: center;
+}
+
+i.col-now-icon {
+    margin-left: 5.75px;
+}
+
+.sticky-add-navbar {
+    padding: 16px 0px;
+}
+
+.header-logo a img {
     height: 64px;
     width: 55.00044631958008px;
+}
+
+.header-top-section .mobile-phone-number p {
+    margin-right: 12px;
+    margin-bottom: 0px;
 }
 
 .header-top-section .mobile-phone-number a {
@@ -38,14 +56,17 @@ body {
     font-size: 14px;
     line-height: 24px;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .mobile-phone-number span hr {
     margin: 0rem 0;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
     color: #0C0B0B;
-    border: 0;
-    border-top: var(--bs-border-width) solid;
-    opacity: .25;
+    background: #0C0B0B;
 }
 
 .top-header .closed-icons i {
@@ -55,6 +76,7 @@ body {
 }
 
 /* ======================Navbar section start================== */
+
 .navbar-section {
     background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.07) 24%, #00000021 0%), radial-gradient(81.16% 143.98% at 50% -5.92%, rgb(243, 150, 50) 0%, rgb(0, 0, 0) 100%);
     background-attachment: fixed;
@@ -62,6 +84,9 @@ body {
 
 a.nav-link.text-white.fw-medium {
     font-size: 18px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0 20px;
 }
 
 .dropdown-icon a i {
@@ -75,6 +100,7 @@ a.nav-link.text-white.fw-medium {
     border: 1px solid #52FFA1;
     font-size: 18px;
     line-height: 24px;
+    padding: 9px 16px;
 }
 
 .btn-whatsapp a {
@@ -83,29 +109,12 @@ a.nav-link.text-white.fw-medium {
     line-height: 24px;
 }
 
-.navbar-section button .whatsapp-img {
+.btn-whatsapp .whatsapp-img {
     font-family: 'Space Grotesk';
     font-size: 18px;
-    background: #52ffa142;
-    padding: 6px;
+    background: #52ffa12b;
+    padding: 6.24px 6.22px 7.1px 7.33px;
     margin-right: 7px;
-}
-
-article.banner-text-part h1 {
-    margin-top: 120px;
-    font-size: 48px;
-    line-height: 52px;
-}
-
-.banner-text h1 {
-    font-size: 56px;
-    line-height: 70px;
-    letter-spacing: -1px;
-}
-
-.banner-text p {
-    font-size: 20px;
-    line-height: 24px;
 }
 
 a.text-decoration-none.text-white {
@@ -119,9 +128,64 @@ a.text-decoration-none.text-white {
     background: white;
 }
 
+/* =======================Banner Section======================= */
+/* .part-of-banner {
+    align-items: center;
+} */
+
+article.banner-text-part h1 {
+    margin-top: 120px;
+    font-size: 48px;
+    line-height: 52px;
+}
+
+.banner-text h1 {
+    font-size: 56px;
+    line-height: 70px;
+    letter-spacing: -1px;
+    margin-bottom: 22.46px;
+}
+
+.banner-text p {
+    font-size: 20px;
+    line-height: 24px;
+    margin-bottom: 41px;
+}
+
+.banner-section {
+    padding-top: 46px;
+    padding-bottom: 114.92px;
+}
+
+.banner-section img.banner-img {
+    height: 586.9210815429688px;
+    width: 586.3325805664062px;
+}
+
+.banner-text button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 22.5px 35px 22.5px 32px;
+}
+
+.banner-text button i.contact-us-icon {
+    margin-left: 13px;
+}
+
 /* ===================We're your virtual Software Solution studio================== */
+article.solution-studio {
+    padding: 140px 0px;
+}
+
 .solution-studio, .our-products, .explore-offer, .meet-associate {
     background: #F5F5F5;
+}
+
+.solution-studio .studio-img {
+    height: 488.7313232421875px;
+    width: 697.001220703125px;
 }
 
 article.solution-studio.py-5 {
@@ -141,17 +205,29 @@ article.solution-studio.py-5 {
     line-height: 52px;
     letter-spacing: -0.01em;
     color: #1A1717;
+    margin-bottom: 28px;
 }
 
 .solution-studio p {
+    font-weight: 400;
     font-size: 20px;
     line-height: 29px;
     color: #626262;
+    margin-bottom: 43.46px;
+}
+
+.solution-studio button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 22.5px 35px 22.5px 32px;
 }
 
 /* ====================how we work section==================== */
 .how-work {
     background: rgba(154, 154, 154, 0.03);
+    padding-top: 90px;
 }
 
 .how-work h1 {
@@ -894,691 +970,195 @@ button#button-addon2 {
 
 
 
-
-
-
-
 /* ....................................................
                 Responsive web degain section
 ...................................................... */
 
 @media screen and (max-width: 576px) {
-    div#navbarSupportedContent {
-        text-align: center;
-    }
-
-    form.d-flex {
-        justify-content: center;
-    }
-
-    button.btn-whatsapp.rounded-pill.py-1.px-3.d-flex.align-items-center.fw-bold {
-        margin: auto;
-    }
-
-    .banner-text {
-        text-align: center;
-    }
-
-    .banner-text button {
-        margin: auto;
-    }
-
-    .banner-img img {
-        margin: auto;
-        padding-top: 30px;
-    }
-
-    .banner-text h1 {
-        font-size: 20px;
-        line-height: 40px;
-    }
-
-    .banner-text p {
-        font-size: 14px;
-    }
-
-    a.text-decoration-none.text-white {
-        font-size: 14px;
-        line-height: 0px;
-    }
-
-    .solution-studio h1 {
-        padding-top: 20px;
-        font-size: 25px;
-        line-height: 35px;
-    }
-
-    .solution-studio p {
-        font-size: 16px;
-    }
-
-    article.solution-studio.py-5 {
-        margin-top: 0px;
-    }
-
-    .solution-studio img.img-fluid.w-100 {
-        margin-top: -30px;
-    }
-
-    .col-sm-12.col-md-6.text-content {
-        padding-left: 12px;
-    }
-
-    .solution-studio-content {
-        margin-bottom: 7px;
-    }
-
-    .solution-studio .text-content {
-        text-align: center;
-        padding-top: 30px;
-    }
-
-    .banner-text button, .solution-studio button {
-        margin: auto;
-    }
-
-    .meet-associate .fintechsolver {
-        text-align: center;
-    }
-
-    .meet-associate .fintechsolver button {
-        margin: auto;
-    }
-
-    .wrapper .owl-prev {
-        right: 40%;
-    }
-
-    .wrapper .owl-next {
-        right: 20%;
-    }
-
-    .updated-information.py-5.px-2 {
-        text-align: center;
-    }
-
-    .footer-area .footer-align {
-        text-align: center;
-    }
-
-    .imges-text.d-flex.align-items-center {
-        justify-content: center;
-    }
-
-    .copy-right p {
-        justify-content: center;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-
-    .header-top-section .mobile-phone-number {
+    .mobile-phone-number.d-flex.mx-auto {
         flex-direction: column;
         align-items: center;
     }
 
-    .col.right-part {
-        padding-right: 12px;
-        margin-bottom: 20px;
-    }
-
-    .col.left-part {
-        padding-left: 12px;
-        margin-bottom: 20px;
-    }
-
-    .carousel-items-style {
-        margin-right: 15px;
-    }
-
-    .updated-information {
-        padding: 10px;
-        border-radius: 10px;
-    }
-
-    article.updated-news {
-        padding-left: 20px;
-        padding-right: 20px;
-        top: -65px;
-    }
-
-    .content-information h1 {
-        font-size: 33px;
-        margin-bottom: 16px;
-        text-align: center;
-        line-height: 50px;
-    }
-
-    .content-information p {
-        font-size: 18px;
-        line-height: 30px;
-        text-align: center;
-        padding-bottom: 56px;
-    }
-
-    .content-information p {
-        padding-bottom: 35px;
-    }
-
-    .email-input-group {
-        margin-bottom: 25px;
-    }
-
-    .footer-bottom hr {
-        margin-top: 16px;
-        margin-bottom: 26px;
-    }
-
-    .solution-studio-content {
-        margin-bottom: -20px;
-    }
-
-    .how-work .card-style h5 {
-        font-size: 25px;
-    }
-
-    .how-work .card-style p {
-        font-size: 15px;
-        line-height: 24px;
-    }
-
-    .offer-header h1.fw-bold {
-        padding-bottom: 7px;
-        font-size: 30px;
-        line-height: 30px;
-        letter-spacing: -0.01em;
-        color: #1A1717;
-        margin-top: -60px;
-    }
-
-    .explore-offer .card-style .card-body-style h5 {
-        font-size: 25px;
-        line-height: 45px;
-    }
-
-    .explore-offer .card-style .card-body-style p {
-        font-size: 16px;
-        color: #777777;
-    }
-
-    .our-products h1 {
-        font-size: 25px;
-        line-height: 52px;
-        letter-spacing: -0.01em;
-        color: #1A1717;
-        margin-top: -24px;
-        margin-bottom: 0px;
-    }
-
-    .header-text p {
-        font-size: 16px;
-        /* line-height: 29px; */
-        color: #626262;
-        padding-top: 7px;
-    }
-
-    .products-revew .hover-bg button a {
-        color: #fff;
-        padding: 10px 22px;
-        font-size: 12px;
-    }
-
-    .products-revew:hover .product-button-eye a {
-        color: #F39022;
-        padding: 8px 16px;
-    }
-
-    .meet-associate h1 {
-        font-size: 25px;
-        line-height: 40px;
-        color: #1A1717;
-        margin-bottom: 27px;
-    }
-
-    .meet-associate p {
-        font-size: 14px;
-        line-height: 25px;
-        color: #777777;
-        margin-bottom: 45px;
-    }
-
-    .banner-text button a, .solution-studio button a, .our-products .view-item a, .meet-associate button a, .send-button button a, .latest-blog .footer-btn a, .email-field .update-news button a {
-        padding: 15px 16px;
-    }
-
-    .contact-with-information h1 {
-        font-size: 25px;
-        text-align: center;
-    }
-
-    .contact-with-field p {
-        font-size: 14px;
-        line-height: 26px;
-        letter-spacing: 0.01em;
-        color: #FFFFFF;
-        text-align: center;
-    }
-
-    .happy-client h1 {
-        font-size: 25px;
-    }
-
-    .owl-theme .owl-nav {
-        top: -70px;
-    }
-
-    .wrapper .owl-prev b, .wrapper .owl-next b {
-        padding: 1px 14px;
-    }
-
-    .happy-client p {
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .card-body.card-body-information {
-        padding: 10px 10px;
-    }
-
-    .cline-button button a {
-        font-size: 12px;
-    }
-
-    p.card-text {
-        margin-bottom: 28px;
-    }
-
-    .blog-header h1 {
+    .banner-text h1 {
         font-size: 25px;
         line-height: 35px;
     }
 
-    .blog-header p {
-        font-size: 14px;
-        line-height: 21px;
+    .banner-text {
+        text-align: center;
+        margin-bottom: 20px;
     }
 
-    .card-body h4 {
-        font-size: 20px;
-        line-height: 28px;
+    .banner-text button {
+        margin: auto;
+        padding: 11.5px 17px 11.5px 16px;
     }
 
-    .animation-card span a {
-        font-size: 14.9092px;
-    }
-
-    article.latest-blog {
-        padding-bottom: 60px;
-    }
-
-    .footer-content ul li {
-        margin-bottom: 12px;
-    }
-
-    .footer-content ul li a, .footer-content p {
+    .banner-text p {
         font-size: 16px;
-        line-height: 21px;
-        line-height: 20px;
+        margin-bottom: 25px;
     }
 
-    .banner-text button a, .solution-studio button a, .our-products .view-item a, .meet-associate button a, .send-button button a, .latest-blog .footer-btn a, .email-field .update-news button a {
-        padding: 12px 24px;
+    .banner-section img.banner-img {
+        height: 386.9210815429688px;
+        width: 386.3325805664062px;
     }
 
-    .card-body-style .title-card {
-        font-size: 18px;
+    .banner-section {
+        padding-top: 40px;
+        padding-bottom: 40.92px;
     }
 
-    .offer-header p {
+    .navbar-items ul li {
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .btn-whatsapp {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    article.solution-studio {
+        padding: 70px 0px;
+        text-align: center;
+    }
+
+    .solution-studio .studio-img {
+        height: 288.7313232421875px;
+        width: 497.001220703125px;
+    }
+
+    .solution-studio-left-side {
+        padding-right: 12px;
+    }
+
+    .solution-studio-right-side {
+        padding-left: 12px;
+    }
+
+    .solution-studio h1 {
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 20px;
+    }
+
+    .solution-studio p {
         font-size: 16px;
-        line-height: 26px;
+        line-height: 24px;
     }
 
-    .explore-offer .card-style {
-        padding: 5px;
+    .solution-studio button {
+        margin: auto;
+        padding: 11.5px 17px 11.5px 16px;
     }
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
-    div#navbarSupportedContent {
-        text-align: center;
-    }
-
-    form.d-flex {
-        justify-content: center;
-    }
-
-    button.btn-whatsapp.rounded-pill.py-1.px-3.d-flex.align-items-center.fw-bold {
-        margin: auto;
-    }
-
     .banner-text {
         text-align: center;
+        margin-bottom: 30px;
     }
 
     .banner-text button {
         margin: auto;
-    }
-
-    .banner-img img {
-        margin: auto;
-        padding-top: 30px;
+        padding: 15.5px 21px 15.5px 20px;
     }
 
     .banner-text h1 {
-        font-size: 29px;
+        font-size: 35px;
         line-height: 50px;
     }
 
-    .solution-studio h1 {
-        padding-top: 20px;
+    .banner-text p {
+        font-size: 18px;
     }
 
-    .solution-studio .text-content {
+    .banner-section img.banner-img {
+        height: 486.9210815429688px;
+        width: 486.3325805664062px;
+    }
+
+    .banner-section {
+        padding-top: 46px;
+        padding-bottom: 40.92px;
+    }
+
+    .navbar-items ul li {
         text-align: center;
-        padding-top: 30px;
+        margin: 10px 0px;
     }
 
-    .banner-text button, .solution-studio button {
+    .btn-whatsapp {
         margin: auto;
-    }
-
-    .meet-associate .fintechsolver {
-        text-align: center;
-    }
-
-    .meet-associate .fintechsolver button {
-        margin: auto;
-    }
-
-    .wrapper .owl-prev {
-        right: 10%;
-    }
-
-    .wrapper .owl-next {
-        right: -5%;
-    }
-
-    .updated-information.py-5.px-2 {
-        text-align: center;
-    }
-
-    .footer-area .footer-align {
-        text-align: center;
-    }
-
-    .imges-text.d-flex.align-items-center {
-        justify-content: center;
-    }
-
-    .copy-right p {
-        justify-content: center;
-        text-align: center;
         margin-top: 20px;
     }
 
-    article.updated-news {
-        position: relative;
-        top: 15px;
-    }
-
-    .header-top-section .mobile-phone-number {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    article.updated-news {
-        padding: 0;
-    }
-
-    .col.right-part {
-        padding-right: 12px;
-        margin-bottom: 20px;
-    }
-
-    .col.left-part {
-        padding-left: 12px;
-        margin-bottom: 20px;
-    }
-
-    .carousel-items-style {
-        margin-right: 15px;
-    }
-
-    .owl-theme .owl-nav {
-        top: -65px;
-        position: absolute;
-        right: 0px;
-    }
-
-    .updated-information {
-        padding: 10px;
-        border-radius: 10px;
-    }
-
-    article.updated-news {
+    article.solution-studio {
+        padding: 70px 0px;
         text-align: center;
-        margin-bottom: 62px;
     }
 
-    .content-information p {
-        padding-bottom: 35px;
+    .solution-studio-left-side {
+        padding-right: 12px;
     }
 
-    .email-input-group {
-        margin-bottom: 25px;
-    }
-
-    .banner-text button a, .solution-studio button a, .our-products .view-item a, .meet-associate button a, .send-button button a, .latest-blog .footer-btn a, .email-field .update-news button a {
-        padding: 12px 24px;
+    .solution-studio-right-side {
+        padding-left: 12px;
     }
 
     .solution-studio h1 {
-        font-size: 30px;
-        line-height: 40px;
-    }
-
-    .how-work .card-style h5 {
-        font-size: 30px;
-    }
-
-    .how-work .card-style p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    .offer-header h1.fw-bold {
-        padding-bottom: 7px;
-        font-size: 30px;
-    }
-
-    .explore-offer .card-style .card-body-style h5 {
-        font-size: 30px;
-    }
-
-    .explore-offer .card-style .card-body-style p {
-        font-size: 15px;
-        line-height: 25px;
-    }
-
-    .our-products h1 {
-        font-size: 30px;
-        margin-top: -5px;
-    }
-
-    .header-text p {
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    .card-body-style .title-card {
-        font-size: 18px;
-    }
-
-    .meet-associate h1 {
-        font-size: 30px;
-        line-height: 48px;
-    }
-
-    .meet-associate p {
-        font-size: 16px;
-        line-height: 26px;
-    }
-
-    .contact-with-information img {
-        text-align: center;
-        display: flex;
-        margin: auto;
-    }
-
-    .contact-with-information h1 {
-        font-size: 30px;
-        line-height: 40px;
-        margin-top: 35px;
-        margin-bottom: 20px;
-        text-align: center;
-    }
-
-    .contact-with-field h1 {
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .contact-with-field p {
-        text-align: center;
-    }
-
-    a.text-decoration-none.text-white {
-        font-size: 18px;
-        line-height: 0px;
-    }
-
-    .happy-client h1 {
-        font-size: 30px;
-    }
-
-    .wrapper .owl-prev b, .wrapper .owl-next b {
-        padding: 1px 15px;
-    }
-
-    .card-body.card-body-information {
-        padding: 8px 10px;
-    }
-
-    .cline-button button a {
-        font-size: 14px;
-    }
-
-    .items.carousel-items-style {
-        margin-right: 12px;
-    }
-
-    .blog-header h1 {
-        font-size: 30px;
-        line-height: 50px;
-    }
-
-    .blog-header p {
-        font-size: 16px;
-        line-height: 25px;
-    }
-
-    .card-body h4 {
-        font-size: 25px;
-        line-height: 30px;
-    }
-
-    .animation-card span a {
-        font-size: 16.9092px;
-    }
-
-    article.latest-blog {
-        padding-bottom: 30px;
-    }
-
-    .content-information h1 {
         font-size: 35px;
-        line-height: 62px;
-        margin-bottom: 16px;
+        line-height: 50px;
+        margin-top: 20px;
     }
 
-    .footer-bottom hr {
-        margin-top: 30px;
+    .solution-studio p {
+        font-size: 18px;
+        line-height: 27px;
     }
 
+    .solution-studio button {
+        margin: auto;
+        padding: 15.5px 21px 15.5px 20px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
-    div#navbarSupportedContent {
+
+    .navbar-items ul li {
         text-align: center;
+        margin: 10px 0px;
     }
 
-    form.d-flex {
-        justify-content: center;
+    .btn-whatsapp {
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .solution-studio-left-side {
+        padding-right: 12px;
+    }
+
+    .solution-studio-right-side {
+        padding-left: 12px;
     }
 
     .banner-text h1 {
-        font-size: 35px;
-        line-height: 50px;
+        font-size: 25px;
+        line-height: 35px;
     }
 
-    .banner-section .banner-img .w-75 {
-        width: 100% !important;
-    }
-
-    button.btn-whatsapp.rounded-pill.py-1.px-3.d-flex.align-items-center.fw-bold {
-        margin: auto;
+    .banner-text button {
+        padding: 18.5px 31px 18.5px 28px;
+        margin-bottom: 20px;
     }
 
     .solution-studio h1 {
-        font-size: 30px;
-        line-height: 36px;
-    }
-
-    .wrapper .owl-next {
-        right: 0%;
-    }
-
-    .wrapper .owl-prev {
-        right: 11%;
-    }
-
-    .updated-information.py-5.px-2 {
-        text-align: center;
-    }
-
-    .footer-area .footer-align {
-        text-align: center;
-    }
-
-    article.updated-news {
-        padding: 0;
-    }
-
-    .col.right-part {
-        padding-right: 12px;
-        margin-bottom: 20px;
-    }
-
-    .col.left-part {
-        padding-left: 12px;
-        margin-bottom: 20px;
-    }
-
-    .carousel-items-style {
-        margin-right: 15px;
-    }
-
-    .content-information p {
-        padding-bottom: 35px;
-    }
-
-    .email-input-group {
-        margin-bottom: 25px;
-    }
-
-    .col-sm-12.col-md-6.text-content {
-        padding-left: 28px;
+        font-size: 25px;
+        line-height: 35px;
+        margin-bottom: 15px;
     }
 
     .solution-studio p {
@@ -1586,84 +1166,33 @@ button#button-addon2 {
         line-height: 24px;
     }
 
-    .banner-text button a, .solution-studio button a, .our-products .view-item a, .meet-associate button a, .send-button button a, .latest-blog .footer-btn a, .email-field .update-news button a {
-        padding: 15px 16px;
-    }
-
-    .how-work h1 {
-        font-size: 35px;
-    }
-
-    .offer-header h1.fw-bold {
-        font-size: 40px;
-    }
-
-    .explore-offer .card-style .card-body-style h5 {
-        font-size: 30px;
-    }
-
-    .our-products h1 {
-        font-size: 35px;
-        margin-top: -5px;
-    }
-
-    .header-text p {
-        font-size: 17px;
-        line-height: 25px;
-        color: #626262;
-        padding-top: 7px;
-    }
-
-    .row-section .col {
-        padding: 22.5px 5px;
-    }
-
-    .products-revew:hover .product-button-eye a {
-        color: #F39022;
-        padding: 6px 6px;
-    }
-
-    .card-body-style .title-card {
-        font-size: 18px;
-    }
-
-    .meet-associate h1 {
-        font-size: 35px;
-        line-height: 50px;
-    }
-
-    .contact-with-field h1 {
-        font-size: 40px;
-    }
-
-    .contact-with-information h1 {
-        font-size: 30px;
-    }
-
-    a.text-decoration-none.text-white {
+    .solution-studio button {
+        font-weight: 400;
         font-size: 16px;
-        line-height: 0px;
+        line-height: 24px;
+        padding: 11.5px 17px 11.5px 16px;
     }
 
-    .happy-client h1 {
-        font-size: 35px;
+    .solution-studio .studio-img {
+        height: 388.7313232421875px;
+        width: 597.001220703125px;
     }
 
-    .card-body.card-body-information {
-        padding: 20px 25px;
+    article.solution-studio {
+        padding: 80px 0px;
     }
 
-    .blog-header h1 {
-        font-size: 42px;
-        line-height: 60px;
+    .banner-text p {
+        font-size: 16px;
+        line-height: 24px;
     }
 
-    .card-body h4 {
-        font-size: 24px;
-        line-height: 30px;
+    .banner-text button {
+        padding: 11.5px 17px 11.5px 16px;
     }
 
-    .animation-card span a {
-        font-size: 16.9092px;
+    .banner-section img.banner-img {
+        height: 400.921082px;
+        width: 400.332581px;
     }
 }

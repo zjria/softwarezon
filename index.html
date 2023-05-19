@@ -28,13 +28,14 @@
 
 <body>
     <!-- ===================Header Top Section=================== -->
-    <section class="header-top-section">
+    <header class="header-top-section">
         <div class="container">
             <div class="top-header d-flex align-items-center">
                 <div class="mobile-phone-number d-flex mx-auto">
                     <p class="text-uppercase fw-medium">FOR ANY inquiry - +8801741773194</p>
                     <span>
-                        <a href="#" class="fw-medium">Call Now <i class="fa-solid fa-arrow-right-long"></i></a>
+                        <a href="#" class="fw-medium">Call Now <i
+                                class="fa-solid fa-arrow-right-long col-now-icon"></i></a>
                         <hr>
                     </span>
                 </div>
@@ -43,64 +44,62 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- ===================Header Section (Navbar)=================== -->
-    <header class="header-section">
-        <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
-            <div class="container header-logo">
-                <a class="navbar-brand" href="#"><img class="img-fluid" src="./images/header/group.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto">
-                        <li class="nav-item">
-                            <a class="nav-link text-white fw-medium" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white fw-medium" aria-current="page" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item dropdown dropdown-icon">
-                            <!-- dropdown-toggle -->
-                            <a class="nav-link text-white fw-medium" href="#" id="navbarDropdown" role="button"
-                                data-bs-toggle="dropdown" aria-expanded="false">
-                                Services <i class="bi bi-chevron-down"></i>
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#">Action</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white fw-medium" aria-current="page" href="#">Blog</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-white fw-medium" aria-current="page" href="#">Support
-                                Page</a>
-                        </li>
-                    </ul>
-                    <form class="d-flex">
-                        <button class="btn-whatsapp rounded-pill d-flex align-items-center fw-bold">
-                            <img class="whatsapp-img rounded-circle text-white" src="./images/header/whatsapp.png"
-                                alt="">Whatsapp Us
-                        </button>
-                    </form>
-                </div>
-            </div>
-        </nav>
     </header>
+    <!-- =================== Navbar section =================== -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top sticky-add-navbar">
+        <div class="container header-logo">
+            <a class="navbar-brand" href="#"><img class="img-fluid" src="./images/header/group.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse navbar-items" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-medium" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-medium" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown dropdown-icon">
+                        <!-- dropdown-toggle -->
+                        <a class="nav-link text-white fw-medium" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Services <i class="bi bi-chevron-down"></i>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-medium" aria-current="page" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-medium" aria-current="page" href="#">Support
+                            Page</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <button class="btn-whatsapp rounded-pill d-flex align-items-center fw-bold">
+                        <img class="whatsapp-img rounded-circle text-white" src="./images/header/whatsapp.png"
+                            alt="">Whatsapp Us
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
     <!--  ===================Banner Section=================== -->
     <article class="navbar-header navbar-section">
         <section class="container">
             <div class="banner-section">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-sm-12 col-md-7">
+                <div class="row align-items-center">
+                    <div class="col-12 col-md-6">
                         <div class="banner-text">
                             <h1 class="text-white fw-bold">
                                 FIND OUT
@@ -109,28 +108,26 @@
                                 WITH
                                 SOFTWAREZON</h1>
                             <p class="text-white">TRY OUR AI-DRIVEN PERSONAL CREDIT MANAGEMENT SYSTEM</p>
-                            <button class="rounded-pill d-flex align-items-center border-0 fw-bold">
-                                CONTACT
-                                US<i class="fa-solid fa-arrow-right-long"></i>
+                            <button class="rounded-pill d-flex align-items-center border-0">CONTACT
+                                US<i class="fa-solid fa-arrow-right-long contact-us-icon"></i>
                             </button>
                         </div>
                     </div>
-                    <div class="col-12 col-md-5 banner-img justify-content-end align-items-end d-flex">
-                        <img class="img-fluid w-100" src="./images/banner-img/banner.png" alt="">
+                    <div class="col-12 col-md-6 banner-img">
+                        <img class="img-fluid banner-img" src="./images/banner-img/banner.png" alt="">
                     </div>
                 </div>
             </div>
         </section>
     </article>
 
-    <!-- =============================Main Section statr======================== -->
     <main>
         <!-- ====================Software Solution studio======================== -->
         <article class="solution-studio">
             <div class="container">
                 <div class="row justify-content-center align-items-center solution-studio-content">
                     <div class="col-sm-12 col-md-6 solution-studio-left-side">
-                        <img class="img-fluid w-100" src="./images/main/softwarezon.png" alt="">
+                        <img class="img-fluid studio-img" src="./images/studio/studio.png" alt="">
                     </div>
                     <div class="col-sm-12 col-md-6 text-content solution-studio-right-side">
                         <h1 class="fw-bold">We're your virtual <br> Software Solution studio</h1>
@@ -143,7 +140,7 @@
                             altering and organizing your pictures. Allow us to take care of the alters, so you can
                             return to
                             the work that needs you.</p>
-                        <button class="rounded-pill d-flex align-items-center border-0 fw-bold ">CONTACT
+                        <button class="rounded-pill d-flex align-items-center border-0 ">CONTACT
                             US <i class="fa-solid fa-arrow-right-long"></i></button>
                     </div>
                 </div>
@@ -214,7 +211,7 @@
                                     magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <button class="border-0 bg-white learn-more fw-bold "> Learn More <i
+                                <button class="border-0 bg-white learn-more"> Learn More <i
                                         class="fa-solid fa-angle-right"></i>
                                     <span>
                                         <hr style="margin: 10px 0px 0px 0px;">
@@ -237,7 +234,7 @@
                                     magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <button class="border-0 bg-white learn-more fw-bold "> Learn More <i
+                                <button class="border-0 bg-white learn-more"> Learn More <i
                                         class="fa-solid fa-angle-right"></i><span>
                                         <hr style="margin: 10px 0px 0px 0px;">
                                     </span>
@@ -258,7 +255,7 @@
                                     magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <button class="border-0 bg-white learn-more fw-bold "> Learn More <i
+                                <button class="border-0 bg-white learn-more"> Learn More <i
                                         class="fa-solid fa-angle-right"></i>
                                     <span>
                                         <hr style="margin: 10px 0px 0px 0px;">
@@ -280,7 +277,7 @@
                                     magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                             </div>
                             <div class="card-footer border-0 bg-white">
-                                <button class="border-0 bg-white learn-more fw-bold "> Learn More <i
+                                <button class="border-0 bg-white learn-more"> Learn More <i
                                         class="fa-solid fa-angle-right"></i>
                                     <span>
                                         <hr style="margin: 10px 0px 0px 0px;">
@@ -485,7 +482,7 @@
                         </div>
                     </div>
                 </div>
-                <button class="text-white rounded-pill d-flex align-items-center border-0 fw-bold m-auto view-item">
+                <button class="text-white rounded-pill d-flex align-items-center border-0 m-auto view-item">
                     View
                     All Item <i class="fa-solid fa-arrow-right-long"></i></button>
             </div>
@@ -502,7 +499,7 @@
                             page when looking at its layout. The point of using Lorem Ipsum is that it has a
                             more-or-less normal distribution of letters, as opposed to using</p>
 
-                        <button class="text-white rounded-pill d-flex border-0 fw-bold">Learn
+                        <button class="text-white rounded-pill d-flex border-0">Learn
                             More <i class="fa-solid fa-arrow-right-long"></i></button>
                     </div>
                     <div class="col-12 col-md-6">
