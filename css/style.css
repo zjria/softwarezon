@@ -290,10 +290,14 @@ article.solution-studio.py-5 {
 } */
 
 /* ==================== Explore What We Offer section==================== */
+article.explore-offer {
+    padding-top: 140px;
+    margin-bottom: -64px;
+}
 
 .explore-offer .card-style .course-number img {
-    height: 95px;
-    width: 95px;
+    height: 100px;
+    width: 100px;
 }
 
 .offer-header p {
@@ -313,7 +317,31 @@ article.solution-studio.py-5 {
 }
 
 .card-body.card-body-style {
-    padding-top: 12px;
+    /* padding-top: 12px; */
+    padding: 0px
+}
+
+.card-footer.border-0.bg-white {
+    padding: 0px;
+    margin-top: 22px;
+}
+
+button.border-0.bg-white.learn-more {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.explore-offer .card-style:hover .learn-more {
+    color: #F7A421;
+}
+
+.explore-offer .card-style {
+    padding: 24px 66.36px 42.8px 72px;
 }
 
 .offer-header p.mb-1 {
@@ -334,10 +362,9 @@ article.solution-studio.py-5 {
     line-height: 45px;
     color: #0D0E16;
     margin-bottom: 23px;
-}
-
-.card-footer.border-0.bg-white {
-    margin-top: 6px;
+    margin-top: 12px;
+    font-weight: 600;
+    letter-spacing: -0.04em;
 }
 
 .explore-offer .card-style .card-body-style p {
@@ -348,12 +375,12 @@ article.solution-studio.py-5 {
 
 .col.right-part {
     padding-right: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 22.5px;
 }
 
 .col.left-part {
     padding-left: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 22.5px;
 }
 
 .explore-offer .card-style .learn-more a {
@@ -395,6 +422,9 @@ hr:not([size]) {
 }
 
 /* ====================Check-Out Our Products section==================== */
+article.our-products {
+    padding-top: 140px;
+}
 
 .products-revew {
     position: relative;
@@ -1065,6 +1095,70 @@ button#button-addon2 {
         margin: auto;
         padding: 11.5px 17px 11.5px 16px;
     }
+
+    .how-work {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .how-work h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .how-work .card-style h5 {
+        font-size: 24px;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+
+    .how-work .card-style p {
+        font-size: 16px;
+    }
+
+    article.explore-offer {
+        padding-top: 60px;
+    }
+
+    .offer-header h1.fw-bold {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .offer-header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .explore-offer .card-style {
+        padding: 10px 10.36px 10.8px 10px;
+    }
+
+    .col.right-part {
+        padding-right: 12px;
+        margin-bottom: 12.5px;
+    }
+
+    .col.left-part {
+        padding-left: 12px;
+        margin-bottom: 12.5px;
+    }
+
+    .explore-offer .card-style .card-body-style h5 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .explore-offer .card-style .card-body-style p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .explore-offer .card-style .course-number img {
+        height: 80px;
+        width: 80px;
+    }
+
 }
 
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -1139,6 +1233,34 @@ button#button-addon2 {
     .how-work {
         padding-top: 50px;
     }
+
+    .offer-header h1.fw-bold {
+        font-size: 35px;
+        line-height: 50px;
+    }
+
+    .offer-header p {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .explore-offer .card-style {
+        padding: 15px 15.36px 15.8px 16px;
+    }
+
+    .col.right-part {
+        padding-right: 12px;
+        margin-bottom: 12.5px;
+    }
+
+    .col.left-part {
+        padding-left: 12px;
+        margin-bottom: 12.5px;
+    }
+
+    article.explore-offer {
+        padding-top: 80px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -1210,5 +1332,67 @@ button#button-addon2 {
     .banner-section img.banner-img {
         height: 400.921082px;
         width: 400.332581px;
+    }
+
+    .how-work h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .how-work .card-style h5 {
+        font-size: 24px;
+        line-height: 20px;
+        margin-bottom: 25px;
+    }
+
+    .how-work .card-style p {
+        font-size: 16px;
+    }
+
+    .how-work .card-style p {
+        font-size: 16px;
+    }
+
+    article.explore-offer {
+        padding-top: 60px;
+    }
+
+    .offer-header h1.fw-bold {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .offer-header p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .explore-offer .card-style {
+        padding: 10px 10.36px 10.8px 10px;
+    }
+
+    .col.right-part {
+        padding-right: 12px;
+        margin-bottom: 12.5px;
+    }
+
+    .col.left-part {
+        padding-left: 12px;
+        margin-bottom: 12.5px;
+    }
+
+    .explore-offer .card-style .card-body-style h5 {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .explore-offer .card-style .card-body-style p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .explore-offer .card-style .course-number img {
+        height: 80px;
+        width: 80px;
     }
 }
