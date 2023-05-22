@@ -19,115 +19,24 @@ body {
     font-family: 'Rubik';
 }
 
-.banner-text button, .solution-studio button, .meet-associate button, .send-button button, .latest-blog .footer-btn, .form-action button, .email-field .update-news button {
+.banner-text button, .solution-studio button, .our-products .view-item, .meet-associate button, .send-button button, .latest-blog .footer-btn, .form-action button, .email-field .update-news button, .latest-blog button, .our-products .our-products-button {
     background: linear-gradient(90deg, #F39022 -7.35%, #F8A921 103.68%);
     border-radius: 10000px;
 }
 
-.banner-text button a, .solution-studio button a, .meet-associate button a, .send-button button a, .latest-blog .footer-btn a, .email-field .update-news button a {
-    padding: 25px 32px;
+.banner-text button, .solution-studio button, .latest-blog button, .meet-associate button, .our-products .our-products-button {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 22.5px 35px 22.5px 32px;
 }
 
-.banner-text button i, .solution-studio button i, .meet-associate button i, .send-button button i {
-    padding-left: 13px;
+.banner-text button i.contact-us-icon, .solution-studio button .solution-studio-icon, .latest-blog button i.read-news-icon, .meet-associate button .meet-associate-icon, .our-products .our-products-button .our-products-icon {
+    margin-left: 13px;
 }
 
 /* ===================Primary Style End================== */
-
-/* ====================Header Top Section================= */
-p.m-0.text-uppercase.fw-medium.pe-2.me-1 {
-    font-size: 14px;
-    line-height: 24px;
-    color: #0C0B0B;
-}
-
-.header-top-section .mobile-phone-number a {
-    color: #0C0B0B;
-    font-size: 14px;
-    line-height: 24px;
-    text-decoration: none;
-}
-
-.mobile-phone-number span hr {
-    margin: 0rem 0;
-    color: #0C0B0B;
-    border: 0;
-    border-top: var(--bs-border-width) solid;
-    opacity: .25;
-}
-
-.top-header .closed-icons i {
-    padding: 4px 5px;
-    background: #56565c26;
-    border-radius: 100%;
-}
-
-/* ======================Navbar section start================== */
-.navbar-section {
-    background-image: linear-gradient(to right bottom, rgba(255, 255, 255, 0.07) 24%, #00000021 0%), radial-gradient(81.16% 143.98% at 50% -5.92%, rgb(243, 150, 50) 0%, rgb(0, 0, 0) 100%);
-    background-attachment: fixed;
-}
-
-a.nav-link.text-white.fw-medium {
-    font-size: 18px;
-}
-
-.dropdown-icon a i {
-    font-size: 15px;
-}
-
-.btn-whatsapp {
-    font-family: 'Space Grotesk';
-    color: #52FFA1;
-    background: none;
-    border: 1px solid #52FFA1;
-    font-size: 18px;
-    line-height: 24px;
-}
-
-.btn-whatsapp a {
-    color: #52FFA1;
-    font-size: 18px;
-    line-height: 24px;
-}
-
-.navbar-section button .whatsapp-img {
-    font-family: 'Space Grotesk';
-    font-size: 18px;
-    background: #52ffa142;
-    padding: 6px;
-    margin-right: 7px;
-}
-
-/* =====================Banner Section===================== */
-
-article.banner-text-part h1 {
-    margin-top: 120px;
-    font-size: 48px;
-    line-height: 52px;
-    margin-bottom: 24px;
-}
-
-article.banner-text-part {
-    padding-bottom: 80px;
-}
-
-.banner-text-part button {
-    border: none;
-    padding: 12px 15px;
-    background: #69B2E6;
-    border-radius: 10000px;
-    margin-bottom: 30px;
-}
-
-.banner-text-part button a {
-    font-size: 15px;
-    color: white;
-}
-
-.banner-text-part a {
-    font-size: 14px;
-}
 
 /* ====================main section and Contact buttons section==================== */
 
@@ -756,7 +665,7 @@ article.may-like-also {
 /* Get your updated news section */
 
 .footer-area {
-    background-image: url(../images/footer.png);
+    background-image: url(../images/footer/footer.png);
     background-position: center;
     background-position-x: center;
     background-repeat: no-repeat;
@@ -1358,7 +1267,6 @@ button#button-addon2 {
     div#navbarSupportedContent {
         text-align: center;
     }
-
 
     .banner-text h1 {
         font-size: 35px;
